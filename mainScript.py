@@ -2,18 +2,18 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import geocode as geocode
-import parser
 import functions
 import time
 import logging
+from parser import YandexMapParser
 
-# url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@settlementId:[10193%2010193]%20@searchType:{house}%27%20Limit%201000%205000&pretty=1"
-url = 'https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@streetId:[11798%2011798]%20@searchType:%7Bhouse%7D%27%20Limit%200%205000&pretty=1'
+url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@settlementId:[10193%2010193]%20@searchType:{house}%27%20Limit%20100%205000&pretty=1"
 
 response = requests.get(url)
 
 logging.basicConfig(filename='coordinates.log', level=logging.INFO, format='%(message)s')
 
+parser = YandexMapParser()
 
 yandex_counter = 0
 nomin_counter = 0
