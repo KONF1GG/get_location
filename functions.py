@@ -1,6 +1,6 @@
 import re
 import requests
-import data
+from data import BD_AUTHORIZATION
 
 # Функция для обработки адресов
 def clean_address(address):
@@ -23,10 +23,10 @@ def check_address_correct(address, house_number):
     
 #Функция для заполнения БД координатами
 def post_coordinates(uuid, latitude, longitude):
-    url = 'http://192.168.111.61/UNF_FULL_WS/hs/setHomeCoordinates'
+    url = 'http://dev1c.freedom1.ru/UNF_TEST_WS2/hs/apps/setHomeCoordinates'
     
     headers = {
-        'Authorization': data.BD_AUTHORIZATION,
+        'Authorization': BD_AUTHORIZATION,
         'Content-Type': 'application/json'
     }
     
@@ -43,12 +43,11 @@ def post_coordinates(uuid, latitude, longitude):
     else:
         print(f"Ошибка при отправке координат: {response.status_code} - {response.text}")
 
-uuid = "c3d567b6-9f3d-11e5-a904-3085a9f76558"
-latitude = 53.311060
-longitude = 59.143515
+# uuid = "c3d566d8-9f3d-11e5-a904-3085a9f76558"
+# latitude = 53.290460
+# longitude = 59.135718
 
-post_coordinates(uuid, latitude, longitude)
-
+# post_coordinates(uuid, latitude, longitude)
 # # Список адресов
 # addresses = [
 #     "Агаповский р-н Агаповка Горная 8",
