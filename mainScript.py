@@ -6,8 +6,9 @@ import functions
 import time
 import logging
 from parser import YandexMapParser
+from tqdm import tqdm
 
-url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@settlementId:[10193%2010193]%20@searchType:{house}%27%20Limit%20100%205000&pretty=1"
+url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@cityId:[10207%2010207]%20@searchType:{house}%27%20Limit%200%205000&pretty=1"
 
 response = requests.get(url)
 
@@ -30,19 +31,30 @@ if response.status_code == 200:
             if not data:
                 print("No data returned from the server.")
             else:
-                for i, (key, value) in enumerate(data.items(), start=1):
+                for i, (key, value) in tqdm(enumerate(data.items(), start=1)):
                     
-                    uuid = value.get('UUID')
-                    print(value.get('addressShort'))
-                    continue
-                    address_for_NominAPI = functions.clean_address(value.get('addressShort'))
-                    address_for_Yandex = value.get('title')  
+                    time.sleep(1)
+                    sett = value.get('settlementId')
                     location = value.get('location', [])
-                    house_number = value.get('rbtName')
-                    print(f'{address_for_NominAPI} - ADDRESS') 
+                    if not location and  sett == None:
+                        uuid = value.get('UUID')
+                        address_for_NominAPI = functions.clean_address(value.get('searchTitle'))
+                        address_for_Yandex = functions.modify_address_for_Yandex(value.get('title'))
+                        house_number = value.get('name')
+                        if house_number == '':
+                            continue
+                        print(f'{functions.clean_address(address_for_NominAPI)}') 
 
-                    if not location:
                         location_from_NominAPI = geocode.get_location(address_for_NominAPI)
+                        print(location_from_NominAPI)
+                        # if location_from_NominAPI:
+                        #     try:
+                        #         functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
+                        #         logging.info(f"NOMI {nomin_counter}")
+                        #         logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
+                        #     except Exception as e:
+                        #         print(f'Faild to post coordinates: {e}')
+                        # continue
                         if not location_from_NominAPI:
                             time.sleep(10)
                             location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
@@ -51,7 +63,7 @@ if response.status_code == 200:
                                     print('There is no location of this address')
                                 else:
                                     try:
-                                        # functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
+                                        functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
                                         yandex_counter += 1
                                         logging.info(f"YANDEX {yandex_counter}")
                                         logging.info(f"{location_from_Yandex} - LOCATION FROM YANDEX")
@@ -60,7 +72,7 @@ if response.status_code == 200:
                                     print(f'{location_from_Yandex} - LOCATION FROM YANDEX')
                         else:
                             try:
-                                # functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
+                                functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
                                 logging.info(f"NOMI {nomin_counter}")
                                 logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
                             except Exception as e:
@@ -68,6 +80,7 @@ if response.status_code == 200:
                             print(f'{location_from_NominAPI} - LOCATION FROM NOMI')
                     else:
                         print('Location already exists')
+                        ...
 
         else:
             print("No <pre> tag found in the response content")
