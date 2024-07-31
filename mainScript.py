@@ -5,10 +5,10 @@ import geocode as geocode
 import functions
 import time
 import logging
-from parser import YandexMapParser
+from Yandex_map_parser import YandexMapParser
 from tqdm import tqdm
 
-url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@cityId:[10207%2010207]%20@searchType:{house}%27%20Limit%200%205000&pretty=1"
+url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@cityId:[10207%2010207]%20@searchType:{house}%27%20Limit%2050%20500&pretty=1"
 
 response = requests.get(url)
 
@@ -47,14 +47,6 @@ if response.status_code == 200:
 
                         location_from_NominAPI = geocode.get_location(address_for_NominAPI)
                         print(location_from_NominAPI)
-                        # if location_from_NominAPI:
-                        #     try:
-                        #         functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
-                        #         logging.info(f"NOMI {nomin_counter}")
-                        #         logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
-                        #     except Exception as e:
-                        #         print(f'Faild to post coordinates: {e}')
-                        # continue
                         if not location_from_NominAPI:
                             time.sleep(10)
                             location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)

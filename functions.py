@@ -22,7 +22,7 @@ def clean_address(address):
     
     return address
 
-#Функция для проверки правильности найденной улицы
+#Функция для проверки правильности найденного дома
 def check_address_correct(address, house_number):
     house_number = re.sub(r'[\\]', '', house_number)
     cleaned_house_number = re.sub(r'[\\/]', '', house_number)
@@ -54,8 +54,10 @@ def post_coordinates(uuid, latitude, longitude):
         print(f"Ошибка при отправке координат: {response.status_code} - {response.text}")
 
 def modify_address_for_Yandex(address):
-    if 'n' in address:
-        return address.replace('n', 'сад ')
+    if 'N' in address:
+        return address.replace('N', 'сад ')
+    else:
+        return address
 
 
 # uuid = "c3d566d8-9f3d-11e5-a904-3085a9f76558"

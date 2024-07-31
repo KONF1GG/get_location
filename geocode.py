@@ -11,10 +11,10 @@ def get_location(address):
         if location.raw.get('class') == 'building':
             return location.latitude, location.longitude
         else:
-            # print('It is not a building')
+            print('It is not a building')
             return None
     else:
-        # print('location is empty on NominAPI')
+        print('location is empty on NominAPI')
         return None
 
 # address = "Агаповский  Агаповка Дальняя 10"
