@@ -5,7 +5,7 @@ from data import BD_AUTHORIZATION
 # Функция для обработки адресов
 def clean_address(address):
     # Удаляем ненужные части адреса
-    address = re.sub(r'р-н|сад', '', address).strip()
+    address = re.sub(r'р-н|сад|ст-ца', '', address).strip()
     # Регулярное выражение для извлечения города, улицы и номера дома
     match = re.search(r'(?P<city>\b\w+\b) (?P<street>[\w-]+\s[\w-]+) (?P<number>\d+)', address)
     if match:
@@ -16,7 +16,7 @@ def clean_address(address):
 def check_address_correct(address, house_number):
     house_number = re.sub(r'[\\]', '', house_number)
     cleaned_house_number = re.sub(r'[\\/]', '', house_number)
-    if house_number in address or cleaned_house_number in address:
+    if house_number == address.split()[-1] or cleaned_house_number == address.split()[-1]:
         return True
     else:
         return False
@@ -67,3 +67,4 @@ def post_coordinates(uuid, latitude, longitude):
 # house_number = '1/A'
 # print(check_address_correct(address, house_number))
 
+print(clean_address('Агаповский р-н Агаповка Солнечный мкр 1\/Б'))

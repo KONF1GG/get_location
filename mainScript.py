@@ -33,6 +33,8 @@ if response.status_code == 200:
                 for i, (key, value) in enumerate(data.items(), start=1):
                     
                     uuid = value.get('UUID')
+                    print(value.get('addressShort'))
+                    continue
                     address_for_NominAPI = functions.clean_address(value.get('addressShort'))
                     address_for_Yandex = value.get('title')  
                     location = value.get('location', [])
@@ -49,7 +51,7 @@ if response.status_code == 200:
                                     print('There is no location of this address')
                                 else:
                                     try:
-                                        functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
+                                        # functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
                                         yandex_counter += 1
                                         logging.info(f"YANDEX {yandex_counter}")
                                         logging.info(f"{location_from_Yandex} - LOCATION FROM YANDEX")
@@ -58,7 +60,7 @@ if response.status_code == 200:
                                     print(f'{location_from_Yandex} - LOCATION FROM YANDEX')
                         else:
                             try:
-                                functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
+                                # functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
                                 logging.info(f"NOMI {nomin_counter}")
                                 logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
                             except Exception as e:

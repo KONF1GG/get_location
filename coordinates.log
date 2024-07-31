@@ -24,3 +24,11 @@ YANDEX 4
 {'latitude': '53.300142', 'longitude': '59.132493', 'Yandex_address': '�������� �����, 20'} - LOCATION FROM YANDEX
 YANDEX 5
 {'latitude': '53.315100', 'longitude': '59.148357', 'Yandex_address': '���������� �������, 48�'} - LOCATION FROM YANDEX
+The chromedriver version (126.0.6478.182) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (127.0.6533.72); currently, chromedriver 127.0.6533.72 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
+YANDEX 1
+{'latitude': '53.299954', 'longitude': '59.128100', 'Yandex_address': 'Школьная улица, 12'} - LOCATION FROM YANDEX
+YANDEX 2
+{'latitude': '53.290460', 'longitude': '59.135718', 'Yandex_address': 'Уральская улица, 58'} - LOCATION FROM YANDEX
+YANDEX 3
+{'latitude': '53.298043', 'longitude': '59.145033', 'Yandex_address': 'улица Солнечный микрорайон, 1Б'} - LOCATION FROM YANDEX
+The chromedriver version (126.0.6478.182) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (127.0.6533.72); currently, chromedriver 127.0.6533.72 is recommended for chrome 127.*, so it is advised to delete the driver in PATH and retry
