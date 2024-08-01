@@ -32,21 +32,20 @@ if response.status_code == 200:
                 print("No data returned from the server.")
             else:
                 for i, (key, value) in tqdm(enumerate(data.items(), start=1)):
-                    
-                    time.sleep(1)
-                    sett = value.get('settlementId')
+
+                    settlementId = value.get('settlementId')
                     location = value.get('location', [])
-                    if not location and  sett == None:
+                    if not location and settlementId == None:
                         uuid = value.get('UUID')
                         address_for_NominAPI = functions.clean_address(value.get('searchTitle'))
-                        address_for_Yandex = functions.modify_address_for_Yandex(value.get('title'))
+                        address_for_Yandex = functions.modify_address_for_Yandex(value.get('searchTitle'))
                         house_number = value.get('name')
                         if house_number == '':
                             continue
-                        print(f'{functions.clean_address(address_for_NominAPI)}') 
+                        print(f'{functions.clean_address(address_for_NominAPI)}')
 
+                        time.sleep(1)
                         location_from_NominAPI = geocode.get_location(address_for_NominAPI)
-                        print(location_from_NominAPI)
                         if not location_from_NominAPI:
                             time.sleep(10)
                             location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
@@ -72,7 +71,6 @@ if response.status_code == 200:
                             print(f'{location_from_NominAPI} - LOCATION FROM NOMI')
                     else:
                         print('Location already exists')
-                        ...
 
         else:
             print("No <pre> tag found in the response content")
