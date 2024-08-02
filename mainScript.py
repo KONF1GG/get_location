@@ -8,7 +8,7 @@ import logging
 from Yandex_map_parser import YandexMapParser
 from tqdm import tqdm
 
-url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@cityId:[10207%2010207]%20@searchType:{house}%27%20Limit%2050%20500&pretty=1"
+url = "https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@cityId:[10207%2010207]%20@searchType:{house}%27%20Limit%200%2010000&pretty=1"
 
 response = requests.get(url)
 
@@ -39,31 +39,35 @@ if response.status_code == 200:
                         uuid = value.get('UUID')
                         address_for_NominAPI = functions.clean_address(value.get('searchTitle'))
                         address_for_Yandex = functions.modify_address_for_Yandex(value.get('searchTitle'))
+                        house_id = value.get('id')
+                        address_checked_in_past = functions.check_if_house_in_bd(house_id=house_id)
                         house_number = value.get('name')
-                        if house_number == '':
+                        if house_number == '' or address_checked_in_past:
                             continue
                         print(f'{functions.clean_address(address_for_NominAPI)}')
 
-                        time.sleep(1)
                         location_from_NominAPI = geocode.get_location(address_for_NominAPI)
+
                         if not location_from_NominAPI:
-                            time.sleep(10)
                             location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
-                            if location_from_Yandex:
-                                if not location_from_Yandex['latitude'] or not functions.check_address_correct(location_from_Yandex['Yandex_address'], house_number):
-                                    print('There is no location of this address')
-                                else:
-                                    try:
-                                        functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
-                                        yandex_counter += 1
-                                        logging.info(f"YANDEX {yandex_counter}")
-                                        logging.info(f"{location_from_Yandex} - LOCATION FROM YANDEX")
-                                    except Exception as e:
-                                        print(f'Faild to post coordinates: {e}')
-                                    print(f'{location_from_Yandex} - LOCATION FROM YANDEX')
+
+                            if not location_from_Yandex or not location_from_Yandex['latitude'] or not functions.check_address_correct(location_from_Yandex['Yandex_address'], house_number):
+                                functions.add_address_without_location_in_DB(house_id=house_id, address=address_for_Yandex)
+                            else:
+                                try:
+                                    functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
+                                    yandex_counter += 1
+                                    logging.info(f"YANDEX {yandex_counter}")
+                                    logging.info(f"{location_from_Yandex} - LOCATION FROM YANDEX")
+                                except Exception as e:
+                                    print(f'Faild to post coordinates: {e}')
+                                print(f'{location_from_Yandex} - LOCATION FROM YANDEX')
+
+
                         else:
                             try:
                                 functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
+                                nomin_counter += 1
                                 logging.info(f"NOMI {nomin_counter}")
                                 logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
                             except Exception as e:

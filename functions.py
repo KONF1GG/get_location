@@ -1,13 +1,14 @@
 import re
 import requests
 from data import BD_AUTHORIZATION
+from DataBase import Session, Address
 
 # Функция для обработки адресов
 def clean_address(address):
     shortcuts = ['дом', 'респ', 'край', 'обл', 'гфз', 'аобл', 'аокр', 'мр-н', 'го', 'гп', 'сп', 'внр-н', 'внтерг', 'пос', 'р-н', 'с/с', 'г', 'пгт', 'рп', 'кп', 'гп', 'п', 'аал', 'арбан', 'аул',
     'в-ки', 'г-к', 'з-ка', 'п-к', 'киш', 'п_ст', 'п_ж/д_ст', 'ж/д_бл-ст', 'ж/д_б-ка', 'ж/д_в-ка', 'ж/д_к-ма', 'ж/д_к-т', 'ж/д_пл-ма', 'ж/д_пл-ка', 'ж/д_пп', 'ж/д_оп', 
     'ж/д_рзд', 'ж/д_ст', 'м-ко', 'д', 'с', 'сл', 'ст-ца', 'ст', 'у', 'х', 'рзд', 'зим', 'б-г', 'вал', 'ж/р', 'зона', 'кв-л', 'мкр', 'ост-в', 'парк', 'платф', 'п/р', 'р-н', 
-    'сад', 'сквер', 'тер', 'тер_СНО', 'тер_ОНО', 'тер_ДНО', 'тер_СНТ', 'тер_ОНТ', 'тер_ДНТ', 'тер_СПК', 'тер_ОПК', 'тер_ДПК', 'тер_СНП', 'тер_ОНП', 'тер_ДНП', 'тер_ТСН', 
+    'сад', 'сквер', 'тер', 'тер.', 'тер_СНО', 'тер_ОНО', 'тер_ДНО', 'тер_СНТ', 'тер_ОНТ', 'тер_ДНТ', 'тер_СПК', 'тер_ОПК', 'тер_ДПК', 'тер_СНП', 'тер_ОНП', 'тер_ДНП', 'тер_ТСН',
     'тер_ГСК', 'ус', 'терфх', 'ю', 'ал', 'б-р', 'взв', 'взд', 'дор', 'ззд', 'км', 'к-цо', 'коса', 'лн', 'мгстр', 'наб', 'пер-д', 'пер', 'пл-ка', 'пл', 'пр-д', 'пр-к', 
     'пр-ка', 'пр-лок', 'пр-кт', 'проул', 'рзд', 'ряд', 'с-р', 'с-к', 'сзд', 'тракт', 'туп', 'ш', 'влд', 'г-ж', 'д', 'двлд', 'зд', 'з/у', 'кв', 'ком', 'подв', 'кот', 
     'п-б', 'к', 'ОНС', 'офис', 'пав', 'помещ', 'рабуч', 'скл', 'coop', 'стр', 'торгзал', 'цех'
@@ -36,7 +37,7 @@ def post_coordinates(uuid, latitude, longitude):
     # test bd
     # url = 'http://dev1c.freedom1.ru/UNF_TEST_WS2/hs/apps/setHomeCoordinates'
     # main bd
-    url = 'https://support.freedom1.ru/UNF_CRM_WS/hs/setHomeCoordinates'
+    url = 'http://server1c.freedom1.ru/UNF_CRM_WS/hs/apps/setHomeCoordinates'
     headers = {
         'Authorization': BD_AUTHORIZATION,
         'Content-Type': 'application/json'
@@ -65,6 +66,42 @@ def modify_address_for_Yandex(address):
     address = re.sub(r'\d-(?=\d)', '', address)
     return address.strip()
 
+def add_address_without_location_in_DB(house_id, address):
+    session = Session()
+
+    try:
+        new_address = Address(
+            house_id=house_id,
+            address=address,
+            search_service=['Nominatium (OpenStreetMap)', 'YandexMap']
+        )
+
+        session.add(new_address)
+        session.commit()
+
+        print(f"Адрес '{address}' с house_id {house_id} был добавлен с ID {new_address.id}.")
+
+    except Exception as e:
+        session.rollback()
+        print(f"Ошибка при добавлении адреса: {e}")
+
+    finally:
+        session.close()
+
+
+def check_if_house_in_bd(house_id: int) -> bool:
+    session = Session()
+    try:
+        exists = session.query(Address).filter_by(house_id=house_id).first() is not None
+
+        return exists
+
+    except Exception as e:
+        print(f"Ошибка при проверке наличия дома: {e}")
+        return False
+
+    finally:
+        session.close()
 
 
 # uuid = "c3d566d8-9f3d-11e5-a904-3085a9f76558"
