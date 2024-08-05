@@ -24,8 +24,9 @@ class AddedAddresses(Base):
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     house_id: Mapped[int] = mapped_column(Integer, nullable=False)
     address: Mapped[str] = mapped_column(String(255), nullable=False)
-    search_service: Mapped[list] = mapped_column(JSON, nullable=True)
+    location: Mapped[list] = mapped_column(JSON, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=datetime.utcnow)
+
 class Address(Base):
     __tablename__ = 'badAddresses'
 

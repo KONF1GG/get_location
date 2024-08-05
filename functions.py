@@ -79,7 +79,7 @@ def add_address_without_location_in_DB(house_id, address):
         session.add(new_address)
         session.commit()
 
-        print(f"Адрес '{address}' с house_id {house_id} был добавлен с ID {new_address.id}.")
+        print(f"Адрес '{address}' с house_id {house_id} был добавлен с ID {new_address.id} in badAddresses")
 
     except Exception as e:
         session.rollback()
@@ -112,6 +112,29 @@ def check_if_address_in_bd(house_id: int) -> bool:
     except Exception as e:
         print(f"Ошибка при проверке наличия дома: {e}")
         return False
+
+    finally:
+        session.close()
+
+
+def post_address_in_bd(house_id, address, location):
+    session = Session()
+
+    try:
+        new_address = AddedAddresses(
+            house_id=house_id,
+            address=address,
+            location=location
+        )
+
+        session.add(new_address)
+        session.commit()
+
+        print(f"Адрес '{address}' с house_id {house_id} был добавлен с ID {new_address.id} in addedAdderesses")
+
+    except Exception as e:
+        session.rollback()
+        print(f"Ошибка при добавлении адреса: {e}")
 
     finally:
         session.close()

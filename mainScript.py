@@ -72,6 +72,7 @@ for limit_start in tqdm(['20000', '30000', '40000', '50000', '60000', '70000', '
                                         functions.add_address_without_location_in_DB(house_id=house_id, address=address_for_Yandex)
                                     else:
                                         try:
+                                            functions.post_address_in_bd(house_id, address_for_NominAPI, [location_from_Yandex['latitude'], location_from_Yandex['longitude']])
                                             functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
                                             yandex_counter += 1
                                             logging.info(f"YANDEX {yandex_counter}")
@@ -83,6 +84,7 @@ for limit_start in tqdm(['20000', '30000', '40000', '50000', '60000', '70000', '
                                     continue
                             else:
                                 try:
+                                    functions.post_address_in_bd(house_id, address_for_NominAPI, location_from_NominAPI)
                                     functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
                                     nomin_counter += 1
                                     logging.info(f"NOMI {nomin_counter}")

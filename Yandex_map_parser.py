@@ -27,7 +27,7 @@ class YandexMapParser:
         except Exception as e:
             search_input_not_found = True
             location_dict = {'latitude': None, 'longitude': None, 'Yandex_address': None,
-                                 'Input_not_found': search_input_not_found}
+                             'Input_not_found': search_input_not_found}
             return location_dict
 
         try:
