@@ -1,7 +1,7 @@
 import re
 import requests
 from data import BD_AUTHORIZATION
-from DataBase import Session, Address
+from DataBase import Session, Address, AddedAddresses
 
 # Функция для обработки адресов
 def clean_address(address):
@@ -89,11 +89,24 @@ def add_address_without_location_in_DB(house_id, address):
         session.close()
 
 
-def check_if_house_in_bd(house_id: int) -> bool:
+def check_if_house_in_bad_bd(house_id: int) -> bool:
     session = Session()
     try:
         exists = session.query(Address).filter_by(house_id=house_id).first() is not None
 
+        return exists
+
+    except Exception as e:
+        print(f"Ошибка при проверке наличия дома: {e}")
+        return False
+
+    finally:
+        session.close()
+
+def check_if_address_in_bd(house_id: int) -> bool:
+    session = Session()
+    try:
+        exists = session.query(AddedAddresses).filter_by(house_id=house_id).first() is not None
         return exists
 
     except Exception as e:

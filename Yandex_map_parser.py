@@ -10,7 +10,6 @@ from fake_useragent import UserAgent
 
 class YandexMapParser:
     def __init__(self):
-        self.bad_coords = {'latitude': '53.302898', 'longitude': '59.140605'}
         o = Options()
         o.add_experimental_option("detach", True)
         o.add_argument(f'--user_agent={UserAgent().random}')
@@ -19,18 +18,27 @@ class YandexMapParser:
         self.driver.get('https://yandex.ru/maps')
 
     def get_location_from_Yandex(self, address):
+        search_input_not_found = False
+        time.sleep(1)
         try:
             search_input = WebDriverWait(self.driver, 10).until(
                 EC.visibility_of_element_located((By.XPATH, '//input[@placeholder="Поиск мест и адресов"]'))
             )
 
+        except Exception as e:
+            search_input_not_found = True
+            location_dict = {'latitude': None, 'longitude': None, 'Yandex_address': None,
+                                 'Input_not_found': search_input_not_found}
+            return location_dict
+
+        try:
             search_input.send_keys(Keys.CONTROL + 'a')
             search_input.send_keys(Keys.BACKSPACE)
 
             search_input.send_keys(address)
             search_input.send_keys(Keys.RETURN)
 
-            time.sleep(4)
+            time.sleep(1)
 
             page = self.driver.page_source
             soup = BeautifulSoup(page, 'html.parser')
@@ -43,9 +51,8 @@ class YandexMapParser:
 
             if coords_element is not None:
                 latitude, longitude = coords_element.text.split(', ')
-                location_dict = {'latitude': latitude, 'longitude': longitude, 'Yandex_address': Yandex_address}
-                if location_dict == self.bad_coords:
-                    return None
+                location_dict = {'latitude': latitude, 'longitude': longitude, 'Yandex_address': Yandex_address,
+                                 'Input_not_found': search_input_not_found}
             else:
                 raise ValueError("Coordinates element not found.")
         except Exception as e:
