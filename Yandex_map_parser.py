@@ -19,7 +19,6 @@ class YandexMapParser:
 
     def get_location_from_Yandex(self, address):
         search_input_not_found = False
-        time.sleep(1)
         try:
             search_input = WebDriverWait(self.driver, 10).until(
                 EC.visibility_of_element_located((By.XPATH, '//input[@placeholder="Поиск мест и адресов"]'))

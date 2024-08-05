@@ -12,7 +12,7 @@ parser = YandexMapParser()
 YandexMap_broken = False
 time.sleep(5)
 
-for limit_start in tqdm(['10000', '20000', '30000', '40000', '50000', '60000', '70000', '80000']):
+for limit_start in tqdm(['20000', '30000', '40000', '50000', '60000', '70000', '80000']):
     limit_ = '10000'
     url = f'https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds:geo%20%27%20@searchType:%7Bhouse%7D%20@searchTitle:%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%20-@latitude:[0%2090]%27%20Limit%20{limit_start}%20{limit_}&pretty=1&pretty=1'
 
