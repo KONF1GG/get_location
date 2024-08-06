@@ -1,7 +1,6 @@
 import requests
 import json
 from bs4 import BeautifulSoup
-import geocode as geocode
 import functions
 import time
 import logging
@@ -12,7 +11,7 @@ parser = YandexMapParser()
 YandexMap_broken = False
 time.sleep(5)
 
-for limit_start in tqdm(['20000', '30000', '40000', '50000', '60000', '70000', '80000']):
+for limit_start in tqdm(['30000', '40000', '50000', '60000', '70000', '80000']):
     limit_ = '10000'
     url = f'https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds:geo%20%27%20@searchType:%7Bhouse%7D%20@searchTitle:%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%20-@latitude:[0%2090]%27%20Limit%20{limit_start}%20{limit_}&pretty=1&pretty=1'
 
@@ -22,7 +21,6 @@ for limit_start in tqdm(['20000', '30000', '40000', '50000', '60000', '70000', '
 
     yandex_counter = 0
     nomin_counter = 0
-    count = 1
 
     if response.status_code == 200:
         try:
@@ -40,8 +38,7 @@ for limit_start in tqdm(['20000', '30000', '40000', '50000', '60000', '70000', '
 
                         settlementId = value.get('settlementId')
                         location = value.get('location', [])
-                        # print(location)
-                        # print(settlementId)
+                        # Проверка, что это не поселок, так как на данный момент ищем только городские дома
                         if settlementId == None:
                             uuid = value.get('UUID')
                             address_for_NominAPI = functions.clean_address(value.get('searchTitle'))
@@ -58,15 +55,17 @@ for limit_start in tqdm(['20000', '30000', '40000', '50000', '60000', '70000', '
                                 continue
                             print(f'{functions.clean_address(address_for_NominAPI)}')
 
-                            location_from_NominAPI = geocode.get_location(address_for_NominAPI)
+                            location_from_NominAPI = functions.get_location(address_for_NominAPI)
+
 
                             if not location_from_NominAPI:
                                 if not YandexMap_broken:
 
                                     time.sleep(5)
                                     location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
-                                    if location_from_Yandex['Input_not_found'] == True:
-                                        YandexMap_broken = True
+                                    if location_from_Yandex is not None:
+                                        if location_from_Yandex['Input_not_found'] == True:
+                                            YandexMap_broken = True
 
                                     if not location_from_Yandex or not location_from_Yandex['latitude'] or not functions.check_address_correct(location_from_Yandex['Yandex_address'], house_number):
                                         functions.add_address_without_location_in_DB(house_id=house_id, address=address_for_Yandex)

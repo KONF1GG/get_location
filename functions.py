@@ -2,6 +2,25 @@ import re
 import requests
 from data import BD_AUTHORIZATION
 from DataBase import Session, Address, AddedAddresses
+from geopy.geocoders import Nominatim
+
+# Функция для получения координат по адресу с сайта OpenStreetMap
+def get_location(address):
+    geolocator = Nominatim(user_agent='MyGeaopyUA')
+    try:
+        location = geolocator.geocode(address)
+    except Exception as e:
+        print(e)
+        location = None
+    if location:
+        if location.raw.get('class') == 'building':
+            return location.latitude, location.longitude
+        else:
+            print('It is not a building')
+            return None
+    else:
+        print('location is empty on NominAPI')
+        return None
 
 # Функция для обработки адресов
 def clean_address(address):
@@ -14,12 +33,11 @@ def clean_address(address):
     'п-б', 'к', 'ОНС', 'офис', 'пав', 'помещ', 'рабуч', 'скл', 'coop', 'стр', 'торгзал', 'цех'
 ]
 
-# Объединяем сокращения в одно регулярное выражение
+    # Объединяем сокращения в одно регулярное выражение
     shortcuts_regex = r'\b(?:' + '|'.join(map(re.escape, shortcuts)) + r')\b'
 
     # Удаляем сокращения из адреса
     address = re.sub(shortcuts_regex, '', address)
-    # Убираем двойные пробелы и лишние пробелы по краям    address = re.sub(r'\s+', ' ', address).strip()
     
     return address
 
@@ -56,6 +74,7 @@ def post_coordinates(uuid, latitude, longitude):
     else:
         print(f"Ошибка при отправке координат: {response.status_code} - {response.text}")
 
+# Изменяем адрес для поиска: К примеру в базе адрес :СНТ Строитель 2 n3, 64" - для Яндекса нужно сделать "СНТ Строитель-3, 64"
 def modify_address_for_Yandex(address):
     if 'сад' in address:
         address = address.replace('сад', '')
@@ -66,6 +85,7 @@ def modify_address_for_Yandex(address):
     address = re.sub(r'\d-(?=\d)', '', address)
     return address.strip()
 
+# Функция для запоминания адресов которые не смог найти парсер
 def add_address_without_location_in_DB(house_id, address):
     session = Session()
 
@@ -88,7 +108,7 @@ def add_address_without_location_in_DB(house_id, address):
     finally:
         session.close()
 
-
+# Функция для проверки, если этот адрес не нашел парсер в прошлом
 def check_if_house_in_bad_bd(house_id: int) -> bool:
     session = Session()
     try:
@@ -102,7 +122,7 @@ def check_if_house_in_bad_bd(house_id: int) -> bool:
 
     finally:
         session.close()
-
+# Функция для проверки, что этот адрес уже был проверен
 def check_if_address_in_bd(house_id: int) -> bool:
     session = Session()
     try:
@@ -116,7 +136,7 @@ def check_if_address_in_bd(house_id: int) -> bool:
     finally:
         session.close()
 
-
+# Функция для запоминания адреса, который успешно удалось найти
 def post_address_in_bd(house_id, address, location):
     session = Session()
 
@@ -139,39 +159,3 @@ def post_address_in_bd(house_id, address, location):
     finally:
         session.close()
 
-
-# uuid = "c3d566d8-9f3d-11e5-a904-3085a9f76558"
-# latitude = 53.290460
-# longitude = 59.135718
-
-# post_coordinates(uuid, latitude, longitude)
-# # Список адресов
-# addresses = [
-#     "Агаповский р-н Агаповка Горная 8",
-#     "Агаповский р-н Агаповка Неженка-2 сад 43",
-#     "Агаповский р-н Агаповка Мелиоратор сад 222"
-# ]
-
-# # Очистка адресов
-# cleaned_addresses = [clean_address(address) for address in addresses]
-
-# # Вывод очищенных адресов
-# for address in cleaned_addresses:
-#     print(address)
-
-
-# address = 'село Агаповка 1A'
-# house_number = '1/A'
-# print(check_address_correct(address, house_number))
-
-# Список адресов для теста
-# addresses = [
-#     "Агаповский р-н Агаповка 60 лет Октября 22/1",
-#     "Голубицкая ст-ца Набережная ул 39",
-#     "Карский х Длинная ул 126",
-#     "Агаповский Гумбейка ж/д_ст Заводская 3"
-# ]
-
-# # Применение функции ко всем адресам
-# for address in addresses:
-#     print(clean_address(address))

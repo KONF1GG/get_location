@@ -1,3 +1,5 @@
+"""Этот код парсит сокращения из официального реестра и немного меняет для Yandex парсера"""
+
 from bs4 import BeautifulSoup
 import requests
 
@@ -15,9 +17,5 @@ for row in table.find_all('tr')[1:]:  # Пропуск заголовка
     if len(columns) == 2:
         short_name = columns[1].text.strip().replace('.', '')  # Удаление точек
         short_names.append(short_name)
-
-# Вывод списка
-# for i in short_names:
-#     print(i, end='|')
 
 print(short_names)

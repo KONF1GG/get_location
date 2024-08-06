@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from Yandex_map_parser import YandexMapParser
-import geocode
+import functions
 
 app = Flask(__name__)
 
@@ -10,7 +10,7 @@ def get_location():
     if not address:
         return jsonify({"error": "Address parameter is required"}), 400
 
-    location_from_NOMI = geocode.get_location(address)
+    location_from_NOMI = functions.get_location(address)
 
     if not location_from_NOMI:
         parser = YandexMapParser()

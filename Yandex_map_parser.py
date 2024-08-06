@@ -11,34 +11,40 @@ from fake_useragent import UserAgent
 class YandexMapParser:
     def __init__(self):
         o = Options()
+        # Опция, чтобы браузер не закрывался
         o.add_experimental_option("detach", True)
         o.add_argument(f'--user_agent={UserAgent().random}')
         # o.add_argument('--headless') # Uncomment this line for headless mode
         self.driver = webdriver.Chrome(options=o)
         self.driver.get('https://yandex.ru/maps')
 
+    # Функция для получаения координат из Яндекс карт по адресу
     def get_location_from_Yandex(self, address):
         search_input_not_found = False
         try:
+            # Ждем пока прогрузится кнопка поиска
             search_input = WebDriverWait(self.driver, 10).until(
                 EC.visibility_of_element_located((By.XPATH, '//input[@placeholder="Поиск мест и адресов"]'))
             )
 
+        # Если кнопки нет, то либо сайт обновили, либо нам показали капчу
         except Exception as e:
             search_input_not_found = True
             location_dict = {'latitude': None, 'longitude': None, 'Yandex_address': None,
                              'Input_not_found': search_input_not_found}
             return location_dict
 
+
         try:
+            # Удаляем текст из поисковика (Нужно в случае если у нас не единичный запрос и нужно стереть предыдущий)
             search_input.send_keys(Keys.CONTROL + 'a')
             search_input.send_keys(Keys.BACKSPACE)
-
             search_input.send_keys(address)
             search_input.send_keys(Keys.RETURN)
 
             time.sleep(1)
 
+            # Получаем html найденного адреса и забираем координаты
             page = self.driver.page_source
             soup = BeautifulSoup(page, 'html.parser')
 
