@@ -1,0 +1,2726 @@
+NOMI 1
+(53.4046744, 58.956539500000005) - LOCATION FROM NOMI
+NOMI 2
+(53.33276725, 58.983077999503095) - LOCATION FROM NOMI
+NOMI 3
+(53.4012739, 58.9572103) - LOCATION FROM NOMI
+NOMI 4
+(53.381344999999996, 59.02596968076924) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.446320', 'longitude': '58.930390', 'Yandex_address': 'улица Василия Котова, 5', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 5
+(53.403012399999994, 58.955516599999996) - LOCATION FROM NOMI
+NOMI 6
+(53.38404525, 59.035818500000005) - LOCATION FROM NOMI
+NOMI 7
+(53.41725015, 58.92049182002032) - LOCATION FROM NOMI
+NOMI 8
+(53.4027727, 58.9550884) - LOCATION FROM NOMI
+NOMI 9
+(53.4017044, 58.955516599999996) - LOCATION FROM NOMI
+NOMI 10
+(53.33407775, 58.99254401732323) - LOCATION FROM NOMI
+NOMI 11
+(53.42128035, 58.92074247704687) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.447548', 'longitude': '58.930013', 'Yandex_address': 'Малиновая улица, 46', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 12
+(53.3729053, 58.99280567933859) - LOCATION FROM NOMI
+NOMI 13
+(53.4031712, 58.9545314) - LOCATION FROM NOMI
+NOMI 14
+(53.4196651, 58.9725963) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.418874', 'longitude': '58.969161', 'Yandex_address': 'Измайловский переулок, 25', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 15
+(53.400861, 58.9584611) - LOCATION FROM NOMI
+NOMI 16
+(53.405425550000004, 58.95653390027027) - LOCATION FROM NOMI
+NOMI 17
+(53.3646695, 58.9865985) - LOCATION FROM NOMI
+NOMI 18
+(53.36910665, 58.99888520459381) - LOCATION FROM NOMI
+YANDEX 4
+{'latitude': '53.443939', 'longitude': '58.930489', 'Yandex_address': 'Дачное шоссе, 16', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 5
+{'latitude': '53.365842', 'longitude': '59.060358', 'Yandex_address': 'шоссе Космонавтов, 66', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 6
+{'latitude': '53.446958', 'longitude': '58.930417', 'Yandex_address': 'улица Василия Котова, 6', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 19
+(53.3217092, 58.99380495663276) - LOCATION FROM NOMI
+NOMI 20
+(53.41925585, 58.968557149999995) - LOCATION FROM NOMI
+NOMI 21
+(53.34140725, 58.99857327484882) - LOCATION FROM NOMI
+NOMI 22
+(53.4009555, 58.9555327) - LOCATION FROM NOMI
+NOMI 23
+(53.4959155, 58.9862051) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%B2+%D1%83%D0%BB%2C++14%2F%D0%B0&format=json&limit=1
+NOMI 24
+(53.4374731, 58.9553266) - LOCATION FROM NOMI
+NOMI 25
+(53.401714, 58.955094) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D1%83%D0%B2%D0%BE%D1%80%D0%BE%D0%B2%D0%B0+%D1%83%D0%BB%2C++26&format=json&limit=1
+NOMI 26
+(53.42679365, 58.971665099999996) - LOCATION FROM NOMI
+NOMI 27
+(53.42097245, 58.91224042270291) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.376130', 'longitude': '59.037793', 'Yandex_address': 'улица Романтиков, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 28
+(53.395305300000004, 59.04334445) - LOCATION FROM NOMI
+NOMI 29
+(53.3430387, 59.00169758716153) - LOCATION FROM NOMI
+NOMI 30
+(53.375128700000005, 58.997106249999995) - LOCATION FROM NOMI
+YANDEX 8
+{'latitude': '53.453570', 'longitude': '58.973293', 'Yandex_address': 'садовое товарищество Калибровщик-2, 448', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 31
+(53.366608049999996, 59.00512964999999) - LOCATION FROM NOMI
+NOMI 32
+(53.400041200000004, 58.9577916) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F+%D1%81%D0%BE%D1%86%D1%82%D1%80%D1%83%D0%B4%D0%B0+%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%8F+%D0%BA%D0%BE%D1%82%D0%BE%D0%B2%D0%B0+%D1%83%D0%BB%2C++32&format=json&limit=1
+YANDEX 9
+{'latitude': '53.445542', 'longitude': '58.930516', 'Yandex_address': 'улица Василия Котова, 32', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 10
+{'latitude': '53.352224', 'longitude': '59.012730', 'Yandex_address': 'Полярная улица, 37', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 33
+(53.403855, 58.955062) - LOCATION FROM NOMI
+NOMI 34
+(53.3718415, 59.00089480380562) - LOCATION FROM NOMI
+NOMI 35
+(53.34144895, 58.99286330062755) - LOCATION FROM NOMI
+NOMI 36
+(53.419718, 58.91870485) - LOCATION FROM NOMI
+NOMI 37
+(53.33048410000001, 58.9911914) - LOCATION FROM NOMI
+NOMI 38
+(53.383571, 59.035205500000004) - LOCATION FROM NOMI
+YANDEX 11
+{'latitude': '53.445531', 'longitude': '58.929977', 'Yandex_address': 'улица Вилия Богуна, 8/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 12
+{'latitude': '53.447285', 'longitude': '58.928593', 'Yandex_address': 'улица Вилия Богуна, 20А', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 13
+{'latitude': '53.447408', 'longitude': '58.928584', 'Yandex_address': 'улица Вилия Богуна, 22', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 14
+{'latitude': '53.433297', 'longitude': '58.953575', 'Yandex_address': 'Вокзальная улица, 32/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 39
+(53.4035823, 58.957779900000006) - LOCATION FROM NOMI
+NOMI 40
+(53.417945700000004, 58.9621588) - LOCATION FROM NOMI
+NOMI 41
+(53.37530635, 58.996870699999995) - LOCATION FROM NOMI
+NOMI 42
+(53.43110715, 58.956133798253546) - LOCATION FROM NOMI
+NOMI 43
+(53.42325015, 58.95384760405543) - LOCATION FROM NOMI
+YANDEX 15
+{'latitude': '53.361753', 'longitude': '58.964140', 'Yandex_address': 'Советская улица, 201', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.49298625, 58.985157925214224) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.405118', 'longitude': '58.956037', 'Yandex_address': 'Енисейская улица, 121Б', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 2
+(53.4249506, 58.96545619803111) - LOCATION FROM NOMI
+NOMI 3
+(53.41683305, 58.9162947) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.450385', 'longitude': '59.043173', 'Yandex_address': 'Среднеуральская улица, 2', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 4
+(53.4286527, 58.9516809) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.429445', 'longitude': '58.960645', 'Yandex_address': 'Советская улица, 2', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 4
+{'latitude': '53.447543', 'longitude': '58.928584', 'Yandex_address': 'улица Вилия Богуна, 22А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 5
+(53.41798775, 58.97554717518578) - LOCATION FROM NOMI
+NOMI 6
+(53.401178, 58.956554600000004) - LOCATION FROM NOMI
+NOMI 7
+(53.396294999999995, 59.05967016176471) - LOCATION FROM NOMI
+NOMI 8
+(53.33533985, 58.99023285579664) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BA%D0%B0%D0%BB%D0%BC%D1%8B%D0%BA%D0%BE%D0%B2%D0%B0+%D1%83%D0%BB%2C++167&format=json&limit=1
+NOMI 9
+(53.322, 58.99648162624223) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++160%2F2&format=json&limit=1
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++160%2F2&format=json&limit=1
+YANDEX 5
+{'latitude': '53.368496', 'longitude': '58.953243', 'Yandex_address': 'Советская улица, 160/2', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 10
+(53.397300099999995, 58.952140525087486) - LOCATION FROM NOMI
+NOMI 11
+(53.4039163, 58.9565377) - LOCATION FROM NOMI
+NOMI 12
+(53.3698052, 58.9760917) - LOCATION FROM NOMI
+NOMI 13
+(53.4017032, 58.9560546) - LOCATION FROM NOMI
+NOMI 14
+(53.402775899999995, 58.955528099999995) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%B8%D0%BD%D0%B4%D1%83%D1%81%D1%82%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB%2C++39%2F1&format=json&limit=1
+NOMI 15
+(53.4058416, 58.957778000000005) - LOCATION FROM NOMI
+NOMI 16
+(53.4023341, 58.957202699999996) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F+%D1%83%D0%BB%2C++57&format=json&limit=1
+NOMI 17
+(53.3711845, 59.0016906) - LOCATION FROM NOMI
+NOMI 18
+(53.3248324, 58.98392) - LOCATION FROM NOMI
+NOMI 19
+(53.3349666, 58.99200684628434) - LOCATION FROM NOMI
+YANDEX 6
+{'latitude': '53.446819', 'longitude': '58.931019', 'Yandex_address': 'улица Сергея Вавилова, 1', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 20
+(53.371066049999996, 58.9976125) - LOCATION FROM NOMI
+NOMI 21
+(53.33451665, 58.99009227301047) - LOCATION FROM NOMI
+NOMI 22
+(53.4016217, 58.9565405) - LOCATION FROM NOMI
+NOMI 23
+(53.3985952, 58.95850685) - LOCATION FROM NOMI
+NOMI 24
+(53.4045999, 58.957799) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0+%D0%BC%D0%B0%D1%80%D1%87%D0%B5%D0%BD%D0%BA%D0%BE+%D1%83%D0%BB%2C++13%2F%D0%B0&format=json&limit=1
+NOMI 25
+(53.4264209, 58.94795099962994) - LOCATION FROM NOMI
+NOMI 26
+(53.337272150000004, 58.98217597466292) - LOCATION FROM NOMI
+NOMI 27
+(53.4023469, 58.9560641) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.436515', 'longitude': '58.937190', 'Yandex_address': 'Северо-Западная улица, 6', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 28
+(53.37242455, 58.99936680314018) - LOCATION FROM NOMI
+NOMI 29
+(53.39657375, 58.94940345982815) - LOCATION FROM NOMI
+NOMI 30
+(53.401005999999995, 58.9550925) - LOCATION FROM NOMI
+YANDEX 8
+{'latitude': '53.376335', 'longitude': '59.036894', 'Yandex_address': 'Просторная улица, 7', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 31
+(53.32694505, 58.981636800000004) - LOCATION FROM NOMI
+YANDEX 9
+{'latitude': '53.447682', 'longitude': '58.929069', 'Yandex_address': 'улица Вилия Богуна, 24/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 10
+{'latitude': '53.505244', 'longitude': '58.985241', 'Yandex_address': 'Ильинская улица, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 32
+(53.4012739, 58.9577883) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%B2%D0%B8%D0%BB%D0%B8%D1%8F+%D0%B1%D0%BE%D0%B3%D1%83%D0%BD%D0%B0+%D1%83%D0%BB%2C++26%2F2&format=json&limit=1
+NOMI 33
+(53.335150999999996, 58.99021855111111) - LOCATION FROM NOMI
+YANDEX 11
+{'latitude': '53.431322', 'longitude': '58.946694', 'Yandex_address': 'Байкальская улица, 30', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 12
+{'latitude': '53.404361', 'longitude': '58.953989', 'Yandex_address': 'Оренбургская улица, 73А', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 13
+{'latitude': '53.445950', 'longitude': '58.931225', 'Yandex_address': 'улица Сергея Вавилова, 14', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 14
+{'latitude': '53.370774', 'longitude': '58.958049', 'Yandex_address': 'Советская улица, 158/2', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.4020264, 58.9540152) - LOCATION FROM NOMI
+NOMI 2
+(53.33755725, 58.9828626) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.352214', 'longitude': '59.068632', 'Yandex_address': 'садовое товарищество Горняк, 981', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 3
+(53.4058348, 58.9560641) - LOCATION FROM NOMI
+NOMI 4
+(53.3313684, 58.97995484992023) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.445639', 'longitude': '58.932160', 'Yandex_address': 'улица Сергея Вавилова, 21', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 3
+{'latitude': '53.445633', 'longitude': '58.931522', 'Yandex_address': 'улица Сергея Вавилова, 20', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 5
+(53.421997250000004, 58.94714494160229) - LOCATION FROM NOMI
+NOMI 6
+(53.4027842, 58.9545619) - LOCATION FROM NOMI
+NOMI 7
+(53.321928650000004, 58.9919794818869) - LOCATION FROM NOMI
+NOMI 8
+(53.3499052, 58.9958116) - LOCATION FROM NOMI
+YANDEX 4
+{'latitude': '53.446470', 'longitude': '58.929608', 'Yandex_address': 'улица Василия Котова, 16', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 9
+(53.3800433, 58.97993580988593) - LOCATION FROM NOMI
+NOMI 10
+(53.3436996, 59.000377925610714) - LOCATION FROM NOMI
+NOMI 11
+(53.431162549999996, 58.947133300000004) - LOCATION FROM NOMI
+NOMI 12
+(53.42104195, 58.918754330284834) - LOCATION FROM NOMI
+NOMI 13
+(53.334162750000004, 58.98484435) - LOCATION FROM NOMI
+NOMI 14
+(53.33588745, 58.979927824451984) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BA%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++10&format=json&limit=1
+NOMI 15
+(53.322175400000006, 58.990997767024886) - LOCATION FROM NOMI
+NOMI 16
+(53.33137285, 58.979262) - LOCATION FROM NOMI
+NOMI 17
+(53.4186856, 58.96800145) - LOCATION FROM NOMI
+NOMI 18
+(53.3831448, 58.96279735) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.434091', 'longitude': '58.941143', 'Yandex_address': 'Вокзальная улица, 2А', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 6
+{'latitude': '53.446824', 'longitude': '58.930040', 'Yandex_address': 'улица Василия Котова, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 19
+(53.3307298, 58.994961399999994) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.338334', 'longitude': '59.045752', 'Yandex_address': 'СНТ Коммунальщик, 692', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 8
+{'latitude': '53.437534', 'longitude': '58.948536', 'Yandex_address': 'улица Автомобилистов, 8А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 20
+(53.4039927, 58.955505) - LOCATION FROM NOMI
+YANDEX 9
+{'latitude': '53.447248', 'longitude': '58.930111', 'Yandex_address': 'Малиновая улица, 48А', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 10
+{'latitude': '53.348516', 'longitude': '59.139356', 'Yandex_address': 'Агаповское шоссе, 14', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++19%2F%D0%B0&format=json&limit=1
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++19%2F%D0%B0&format=json&limit=1
+NOMI 21
+(53.3934257, 59.04058646455627) - LOCATION FROM NOMI
+NOMI 22
+(53.33284435, 58.979946775548015) - LOCATION FROM NOMI
+NOMI 23
+(53.363456, 58.996656) - LOCATION FROM NOMI
+NOMI 24
+(53.4324528, 58.969813650000006) - LOCATION FROM NOMI
+NOMI 25
+(53.430458200000004, 58.96049766581665) - LOCATION FROM NOMI
+NOMI 26
+(53.32891215, 58.990934153485085) - LOCATION FROM NOMI
+YANDEX 11
+{'latitude': '53.349279', 'longitude': '59.058202', 'Yandex_address': 'садовое товарищество Горняк, 921', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 12
+{'latitude': '53.446449', 'longitude': '58.930740', 'Yandex_address': 'улица Сергея Вавилова, 6', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 13
+{'latitude': '53.446486', 'longitude': '58.927929', 'Yandex_address': 'улица Вилия Богуна, 15', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 27
+(53.334358800000004, 58.99686010376706) - LOCATION FROM NOMI
+NOMI 28
+(53.33496985, 58.98119219906264) - LOCATION FROM NOMI
+NOMI 29
+(53.3212045, 58.9920653) - LOCATION FROM NOMI
+NOMI 30
+(53.429821700000005, 58.9513929) - LOCATION FROM NOMI
+YANDEX 14
+{'latitude': '53.447854', 'longitude': '58.929105', 'Yandex_address': 'улица Вилия Богуна, 24/2', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 15
+{'latitude': '53.402294', 'longitude': '58.953746', 'Yandex_address': 'Ленинградский переулок, 46', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 31
+(53.3219672, 58.9951284140771) - LOCATION FROM NOMI
+NOMI 32
+(53.403411399999996, 58.956073599999996) - LOCATION FROM NOMI
+NOMI 33
+(53.3614475, 59.01076188312476) - LOCATION FROM NOMI
+NOMI 34
+(53.391852, 59.03682877362479) - LOCATION FROM NOMI
+NOMI 35
+(53.49153715, 58.9861179508444) - LOCATION FROM NOMI
+NOMI 36
+(53.32285985, 58.999598899999995) - LOCATION FROM NOMI
+NOMI 37
+(53.421061300000005, 58.917429350000006) - LOCATION FROM NOMI
+YANDEX 16
+{'latitude': '53.503895', 'longitude': '58.985493', 'Yandex_address': 'Солнечный переулок, 5', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 38
+(53.405008800000004, 58.9584916) - LOCATION FROM NOMI
+NOMI 39
+(53.4200034, 58.963333399999996) - LOCATION FROM NOMI
+YANDEX 17
+{'latitude': '53.446754', 'longitude': '58.929842', 'Yandex_address': 'улица Василия Котова, 12', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 40
+(53.400502700000004, 58.9572121) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%B2%D0%B8%D0%BB%D0%B8%D1%8F+%D0%B1%D0%BE%D0%B3%D1%83%D0%BD%D0%B0+%D1%83%D0%BB%2C++28&format=json&limit=1
+YANDEX 18
+{'latitude': '53.448197', 'longitude': '58.928728', 'Yandex_address': 'улица Вилия Богуна, 28', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 19
+{'latitude': '53.445070', 'longitude': '58.925656', 'Yandex_address': 'улица Николая Кизименко, 4', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 41
+(53.3672247, 59.00420019263515) - LOCATION FROM NOMI
+NOMI 42
+(53.418878, 58.9583384) - LOCATION FROM NOMI
+NOMI 43
+(53.3408943, 58.99767810769231) - LOCATION FROM NOMI
+YANDEX 20
+{'latitude': '53.445419', 'longitude': '58.930632', 'Yandex_address': 'улица Василия Котова, 34', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 44
+(53.33689365, 58.98927863755317) - LOCATION FROM NOMI
+YANDEX 21
+{'latitude': '53.436617', 'longitude': '58.955372', 'Yandex_address': 'улица Автомобилистов, 16В', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 45
+(53.335913399999995, 58.9884846) - LOCATION FROM NOMI
+NOMI 46
+(53.3729283, 58.99941487172741) - LOCATION FROM NOMI
+NOMI 47
+(53.41626945, 58.98821319123593) - LOCATION FROM NOMI
+NOMI 48
+(53.5026821, 58.9883962) - LOCATION FROM NOMI
+YANDEX 22
+{'latitude': '53.446625', 'longitude': '58.929501', 'Yandex_address': 'улица Василия Котова, 14', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 49
+(53.4922031, 58.98613765) - LOCATION FROM NOMI
+NOMI 1
+(53.37086725, 59.00141442712207) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BA%D0%B0%D0%BB%D0%BC%D1%8B%D0%BA%D0%BE%D0%B2%D0%B0+%D1%83%D0%BB%2C++143&format=json&limit=1
+NOMI 2
+(53.32712105, 58.99437750067385) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.445655', 'longitude': '58.930408', 'Yandex_address': 'улица Василия Котова, 30', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 3
+(53.4004323, 58.9584877) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.445896', 'longitude': '58.930183', 'Yandex_address': 'улица Василия Котова, 26', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 4
+(53.423382450000005, 58.95496901397169) - LOCATION FROM NOMI
+NOMI 5
+(53.405764700000006, 58.956534000000005) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.342812', 'longitude': '58.995069', 'Yandex_address': 'улица Калмыкова, 66/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 4
+{'latitude': '53.446706', 'longitude': '58.931145', 'Yandex_address': 'улица Сергея Вавилова, 3', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%B1%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++30&format=json&limit=1
+NOMI 6
+(53.33380415, 58.98862057994572) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+%D1%83%D0%BB%2C++35&format=json&limit=1
+NOMI 7
+(53.42389915, 58.96725892482876) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BA%D0%BE%D0%BC%D1%81%D0%BE%D0%BC%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++67&format=json&limit=1
+NOMI 8
+(53.425822600000004, 58.9655687248043) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.446277', 'longitude': '58.930920', 'Yandex_address': 'улица Сергея Вавилова, 8', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 9
+(53.362095999999994, 58.999345500000004) - LOCATION FROM NOMI
+YANDEX 6
+{'latitude': '53.447210', 'longitude': '58.927506', 'Yandex_address': 'улица Александра Марченко, 16', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 10
+(53.35484745, 58.96009827515686) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.332446', 'longitude': '59.054474', 'Yandex_address': 'СНТ Коммунальщик, 1485', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 8
+{'latitude': '53.446234', 'longitude': '58.931603', 'Yandex_address': 'улица Сергея Вавилова, 11', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 11
+(53.3764562, 58.99844365733831) - LOCATION FROM NOMI
+NOMI 12
+(53.494121, 58.9851355) - LOCATION FROM NOMI
+NOMI 13
+(53.3475296, 58.99224627652177) - LOCATION FROM NOMI
+NOMI 14
+(53.3210411, 58.9921511425186) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9+%D0%BC%D0%B0%D1%8F%D0%BA+%D1%83%D0%BB%2C++25&format=json&limit=1
+NOMI 15
+(53.4915811, 58.98520405) - LOCATION FROM NOMI
+NOMI 16
+(53.37477025, 58.99965499999999) - LOCATION FROM NOMI
+NOMI 17
+(53.3345336, 58.9876184) - LOCATION FROM NOMI
+NOMI 18
+(53.3376942, 58.99359991920515) - LOCATION FROM NOMI
+NOMI 19
+(53.335548149999994, 58.992827500000004) - LOCATION FROM NOMI
+YANDEX 9
+{'latitude': '53.448502', 'longitude': '58.928521', 'Yandex_address': 'улица Вилия Богуна, 32', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 20
+(53.3322469, 58.97896112520767) - LOCATION FROM NOMI
+YANDEX 10
+{'latitude': '53.445687', 'longitude': '58.926159', 'Yandex_address': 'улица Николая Кизименко, 8', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 11
+{'latitude': '53.448352', 'longitude': '58.928674', 'Yandex_address': 'улица Вилия Богуна, 30', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 21
+(53.33993755, 58.994442449999994) - LOCATION FROM NOMI
+NOMI 22
+(53.4284189, 58.971450626112755) - LOCATION FROM NOMI
+NOMI 23
+(53.3817745, 59.02662224182444) - LOCATION FROM NOMI
+NOMI 24
+(53.33626305, 58.99107703736712) - LOCATION FROM NOMI
+NOMI 25
+(53.3345314, 58.990700546284344) - LOCATION FROM NOMI
+NOMI 26
+(53.3921325, 58.9307139) - LOCATION FROM NOMI
+NOMI 27
+(53.33884235, 59.000369750000004) - LOCATION FROM NOMI
+NOMI 28
+(53.39932, 58.9584895) - LOCATION FROM NOMI
+YANDEX 12
+{'latitude': '53.376533', 'longitude': '59.037397', 'Yandex_address': 'улица Романтиков, 6', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 29
+(53.343806799999996, 59.00164057092391) - LOCATION FROM NOMI
+NOMI 30
+(53.34442695, 59.00077554228639) - LOCATION FROM NOMI
+NOMI 31
+(53.4322713, 58.9531461) - LOCATION FROM NOMI
+NOMI 32
+(53.335438499999995, 58.9883647808243) - LOCATION FROM NOMI
+YANDEX 13
+{'latitude': '53.376179', 'longitude': '59.041377', 'Yandex_address': 'Лунная улица, 13', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 14
+{'latitude': '53.400345', 'longitude': '58.965029', 'Yandex_address': 'Советская улица, 133/2', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 33
+(53.40261795, 58.95341795) - LOCATION FROM NOMI
+YANDEX 15
+{'latitude': '53.447097', 'longitude': '58.930803', 'Yandex_address': 'улица Василия Котова, 2', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 34
+(53.336613, 58.992349226857385) - LOCATION FROM NOMI
+NOMI 35
+(53.403161600000004, 58.9565303) - LOCATION FROM NOMI
+NOMI 36
+(53.4300644, 58.96249559179894) - LOCATION FROM NOMI
+NOMI 37
+(53.4296023, 58.96827768068182) - LOCATION FROM NOMI
+NOMI 38
+(53.3431773, 59.00102200425532) - LOCATION FROM NOMI
+NOMI 39
+(53.33574505, 58.992112250000005) - LOCATION FROM NOMI
+YANDEX 16
+{'latitude': '53.446390', 'longitude': '58.930327', 'Yandex_address': 'улица Василия Котова, 3', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 40
+(53.32666375, 58.981390149999996) - LOCATION FROM NOMI
+YANDEX 17
+{'latitude': '53.447837', 'longitude': '58.929770', 'Yandex_address': 'Малиновая улица, 44', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 41
+(53.490679150000005, 58.987876848247716) - LOCATION FROM NOMI
+NOMI 42
+(53.4000262, 58.9560428) - LOCATION FROM NOMI
+NOMI 43
+(53.3411094, 58.995191052627135) - LOCATION FROM NOMI
+YANDEX 18
+{'latitude': '53.333623', 'longitude': '59.039787', 'Yandex_address': 'СНТ Коммунальщик, 920', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 44
+(53.4908446, 58.99248560597714) - LOCATION FROM NOMI
+NOMI 45
+(53.31981835, 58.99876221676414) - LOCATION FROM NOMI
+NOMI 46
+(53.373792449999996, 58.9965739) - LOCATION FROM NOMI
+NOMI 47
+(53.33296765, 58.97994405) - LOCATION FROM NOMI
+YANDEX 19
+{'latitude': '53.445778', 'longitude': '58.930309', 'Yandex_address': 'улица Василия Котова, 28', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 20
+{'latitude': '53.446057', 'longitude': '58.931127', 'Yandex_address': 'улица Сергея Вавилова, 12', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.402787399999994, 58.9560546) - LOCATION FROM NOMI
+NOMI 2
+(53.394915999999995, 58.9572165) - LOCATION FROM NOMI
+NOMI 3
+(53.42321585, 58.96706072482876) - LOCATION FROM NOMI
+NOMI 4
+(53.3409088, 58.996529800000005) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.336263', 'longitude': '58.989086', 'Yandex_address': 'Ботаническая улица, 8А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 5
+(53.497377, 58.9893105) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.445998', 'longitude': '58.931827', 'Yandex_address': 'улица Сергея Вавилова, 15', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 6
+(53.33570555, 58.98120455058674) - LOCATION FROM NOMI
+NOMI 7
+(53.491937199999995, 58.9851805) - LOCATION FROM NOMI
+NOMI 8
+(53.3345763, 58.9867194748731) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.452905', 'longitude': '58.980085', 'Yandex_address': 'садовое товарищество Калибровщик-2, 179', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 9
+(53.42582815, 58.9570421) - LOCATION FROM NOMI
+NOMI 10
+(53.3324848, 58.979318899999996) - LOCATION FROM NOMI
+NOMI 11
+(53.3341126, 58.988691599999996) - LOCATION FROM NOMI
+NOMI 12
+(53.405842, 58.95722232529762) - LOCATION FROM NOMI
+NOMI 13
+(53.32165635, 58.99555581997177) - LOCATION FROM NOMI
+YANDEX 4
+{'latitude': '53.381491', 'longitude': '59.026591', 'Yandex_address': 'Малая Пролетарская улица, 21', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 14
+(53.3344027, 58.99067214628434) - LOCATION FROM NOMI
+NOMI 15
+(53.4939488, 58.986143049999995) - LOCATION FROM NOMI
+NOMI 16
+(53.4262637, 58.9543049) - LOCATION FROM NOMI
+NOMI 17
+(53.4042598, 58.958477900000005) - LOCATION FROM NOMI
+NOMI 18
+(53.3351014, 58.9882919) - LOCATION FROM NOMI
+NOMI 19
+(53.3727676, 58.999704385526314) - LOCATION FROM NOMI
+NOMI 20
+(53.4159402, 58.9717129) - LOCATION FROM NOMI
+NOMI 21
+(53.3723296, 58.99444977654376) - LOCATION FROM NOMI
+NOMI 22
+(53.356010600000005, 58.96897985) - LOCATION FROM NOMI
+NOMI 23
+(53.41754195, 58.9671) - LOCATION FROM NOMI
+NOMI 24
+(53.4039163, 58.958477900000005) - LOCATION FROM NOMI
+NOMI 25
+(53.4043343, 58.957791400000005) - LOCATION FROM NOMI
+NOMI 26
+(53.3293903, 58.990393498742385) - LOCATION FROM NOMI
+NOMI 27
+(53.367521749999995, 58.999612400000004) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.401526', 'longitude': '58.954555', 'Yandex_address': 'Оренбургская улица, 88', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 6
+{'latitude': '53.376313', 'longitude': '59.037595', 'Yandex_address': 'улица Романтиков, 8', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 28
+(53.4233051, 58.904855711180126) - LOCATION FROM NOMI
+NOMI 29
+(53.496973600000004, 58.98560798955576) - LOCATION FROM NOMI
+NOMI 30
+(53.335969250000005, 58.992260444951334) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.451463', 'longitude': '58.978881', 'Yandex_address': 'садовое товарищество Калибровщик-2, 238', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 8
+{'latitude': '53.445998', 'longitude': '58.926159', 'Yandex_address': 'улица Николая Кизименко, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 31
+(53.392306149999996, 58.958510965638126) - LOCATION FROM NOMI
+NOMI 32
+(53.334729499999995, 58.98881190983606) - LOCATION FROM NOMI
+NOMI 33
+(53.3842465, 59.035074531763925) - LOCATION FROM NOMI
+NOMI 34
+(53.40788365, 58.91907145093293) - LOCATION FROM NOMI
+NOMI 35
+(53.350896649999996, 59.008721550000004) - LOCATION FROM NOMI
+NOMI 36
+(53.3387008, 58.98449305) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BF%D1%83%D0%B3%D0%B0%D1%87%D0%B5%D0%B2%D0%B0+%D1%83%D0%BB%2C++35%2F%D0%B0&format=json&limit=1
+YANDEX 1
+{'latitude': '53.429150', 'longitude': '58.962397', 'Yandex_address': 'улица Пугачёва, 35А', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 2
+{'latitude': '53.431188', 'longitude': '58.958696', 'Yandex_address': 'улица Пирогова, 54А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.3698091, 58.975181123782235) - LOCATION FROM NOMI
+NOMI 2
+(53.4262522, 58.9511179) - LOCATION FROM NOMI
+NOMI 3
+(53.4028269, 58.957239) - LOCATION FROM NOMI
+NOMI 4
+(53.3361063, 58.9845225043659) - LOCATION FROM NOMI
+NOMI 5
+(53.375482000000005, 58.976895999999996) - LOCATION FROM NOMI
+NOMI 6
+(53.4035709, 58.9555376) - LOCATION FROM NOMI
+NOMI 7
+(53.4304987, 58.951140800000005) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.446159', 'longitude': '58.930543', 'Yandex_address': 'улица Василия Котова, 7', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 8
+(53.3325126, 58.98179512513967) - LOCATION FROM NOMI
+NOMI 9
+(53.4050876, 58.95777775) - LOCATION FROM NOMI
+NOMI 10
+(53.4031648, 58.958477900000005) - LOCATION FROM NOMI
+NOMI 11
+(53.381431, 59.031262999999996) - LOCATION FROM NOMI
+NOMI 12
+(53.42808945, 58.95704367470019) - LOCATION FROM NOMI
+YANDEX 4
+{'latitude': '53.445816', 'longitude': '58.930884', 'Yandex_address': 'улица Василия Котова, 13', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 13
+(53.400257499999995, 59.091339848220805) - LOCATION FROM NOMI
+NOMI 14
+(53.3311109, 58.97994403380424) - LOCATION FROM NOMI
+NOMI 15
+(53.4020264, 58.9560641) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.436649', 'longitude': '58.956684', 'Yandex_address': 'улица Автомобилистов, 18Е', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 16
+(53.395784, 58.92107232591779) - LOCATION FROM NOMI
+NOMI 17
+(53.33403595, 58.988075823859255) - LOCATION FROM NOMI
+NOMI 18
+(53.3717814, 58.99778417469879) - LOCATION FROM NOMI
+NOMI 19
+(53.3346941, 58.990741246284344) - LOCATION FROM NOMI
+NOMI 20
+(53.33384155, 58.99175954562304) - LOCATION FROM NOMI
+NOMI 21
+(53.36714135, 58.99671945569773) - LOCATION FROM NOMI
+NOMI 22
+(53.334580349999996, 58.986134050000004) - LOCATION FROM NOMI
+YANDEX 6
+{'latitude': '53.443617', 'longitude': '58.945347', 'Yandex_address': 'СНТ Метизник, 540', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 7
+{'latitude': '53.446009', 'longitude': '58.930067', 'Yandex_address': 'улица Василия Котова, 24', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 23
+(53.3388954, 58.97840202591003) - LOCATION FROM NOMI
+NOMI 24
+(53.3434629, 59.000150612579816) - LOCATION FROM NOMI
+NOMI 25
+(53.321739300000004, 58.996652231154606) - LOCATION FROM NOMI
+NOMI 26
+(53.49335735, 58.986104600000004) - LOCATION FROM NOMI
+YANDEX 8
+{'latitude': '53.447821', 'longitude': '58.928791', 'Yandex_address': 'улица Вилия Богуна, 24', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 27
+(53.366285250000004, 59.00750004818096) - LOCATION FROM NOMI
+NOMI 28
+(53.3942137, 59.04195695) - LOCATION FROM NOMI
+NOMI 29
+(53.4318963, 58.9606371863684) - LOCATION FROM NOMI
+YANDEX 9
+{'latitude': '53.445515', 'longitude': '58.931171', 'Yandex_address': 'улица Василия Котова, 19', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 30
+(53.4033884, 58.9555376) - LOCATION FROM NOMI
+NOMI 31
+(53.4042025, 58.9540327508149) - LOCATION FROM NOMI
+NOMI 32
+(53.4023325, 58.9578068) - LOCATION FROM NOMI
+YANDEX 10
+{'latitude': '53.341737', 'longitude': '59.041862', 'Yandex_address': 'СНТ Коммунальщик, 337', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 33
+(53.335860350000004, 58.997825226926295) - LOCATION FROM NOMI
+NOMI 34
+(53.427363850000006, 58.95511784999999) - LOCATION FROM NOMI
+NOMI 35
+(53.360947249999995, 58.9801869) - LOCATION FROM NOMI
+YANDEX 11
+{'latitude': '53.446910', 'longitude': '58.925764', 'Yandex_address': 'улица Николая Кизименко, 15', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 36
+(53.369595950000004, 58.997000299999996) - LOCATION FROM NOMI
+NOMI 37
+(53.4031744, 58.955528099999995) - LOCATION FROM NOMI
+NOMI 38
+(53.5224435, 58.980058564137224) - LOCATION FROM NOMI
+NOMI 39
+(53.421407200000004, 58.918406176558605) - LOCATION FROM NOMI
+NOMI 40
+(53.405010399999995, 58.9565422) - LOCATION FROM NOMI
+YANDEX 12
+{'latitude': '53.446422', 'longitude': '58.928863', 'Yandex_address': 'улица Вилия Богуна, 12/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 41
+(53.50468175, 58.986428197971335) - LOCATION FROM NOMI
+NOMI 42
+(53.33491795, 58.99267359562304) - LOCATION FROM NOMI
+NOMI 43
+(53.404671199999996, 58.95849165) - LOCATION FROM NOMI
+NOMI 44
+(53.3597877, 58.9803819) - LOCATION FROM NOMI
+YANDEX 13
+{'latitude': '53.364493', 'longitude': '59.198366', 'Yandex_address': 'Челябинский тракт, 80', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 45
+(53.4035823, 58.957222900000005) - LOCATION FROM NOMI
+NOMI 46
+(53.337878700000005, 58.99916671681928) - LOCATION FROM NOMI
+NOMI 47
+(53.4023374, 58.9534024) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.417592', 'longitude': '58.969179', 'Yandex_address': 'Ленинградская улица, 49/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.3954558, 58.98299565) - LOCATION FROM NOMI
+NOMI 2
+(53.3738874, 58.99844968433283) - LOCATION FROM NOMI
+NOMI 3
+(53.436991750000004, 58.95537952185539) - LOCATION FROM NOMI
+NOMI 4
+(53.4278268, 58.941397699999996) - LOCATION FROM NOMI
+NOMI 5
+(53.3502471, 59.002635749999996) - LOCATION FROM NOMI
+NOMI 6
+(53.42310555, 58.954385007559466) - LOCATION FROM NOMI
+NOMI 7
+(53.3376384, 58.99301500055422) - LOCATION FROM NOMI
+NOMI 8
+(53.3384576, 58.97927704942731) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.430389', 'longitude': '58.973231', 'Yandex_address': 'улица Герцена, 6', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 9
+(53.4031629, 58.9560641) - LOCATION FROM NOMI
+NOMI 10
+(53.4250655, 58.979932500000004) - LOCATION FROM NOMI
+NOMI 11
+(53.4023374, 58.9557951) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.375266', 'longitude': '59.037873', 'Yandex_address': 'Просторная улица, 17', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 4
+{'latitude': '53.452696', 'longitude': '58.984037', 'Yandex_address': 'садовое товарищество Калибровщик-2, 9', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 12
+(53.336067299999996, 58.983041150000005) - LOCATION FROM NOMI
+NOMI 13
+(53.4019537, 58.9565405) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.376077', 'longitude': '59.037101', 'Yandex_address': 'Просторная улица, 9', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 14
+(53.4031712, 58.9550884) - LOCATION FROM NOMI
+NOMI 15
+(53.3596807, 58.9809064) - LOCATION FROM NOMI
+NOMI 16
+(53.4288945, 58.9552472) - LOCATION FROM NOMI
+NOMI 17
+(53.432961, 58.956330625324675) - LOCATION FROM NOMI
+YANDEX 6
+{'latitude': '53.445880', 'longitude': '58.931935', 'Yandex_address': 'улица Сергея Вавилова, 17', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 18
+(53.4196561, 58.92001829872372) - LOCATION FROM NOMI
+NOMI 19
+(53.4369435, 58.9508182) - LOCATION FROM NOMI
+NOMI 20
+(53.368148000000005, 59.0004929) - LOCATION FROM NOMI
+NOMI 21
+(53.3261467, 58.9773701004023) - LOCATION FROM NOMI
+NOMI 22
+(53.405522399999995, 58.95606) - LOCATION FROM NOMI
+NOMI 23
+(53.42722345, 58.958144325000006) - LOCATION FROM NOMI
+NOMI 24
+(53.401343, 58.9560267) - LOCATION FROM NOMI
+NOMI 25
+(53.32968605, 58.98578075) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.445478', 'longitude': '58.931692', 'Yandex_address': 'улица Сергея Вавилова, 22', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 8
+{'latitude': '53.445875', 'longitude': '58.931297', 'Yandex_address': 'улица Сергея Вавилова, 16', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 26
+(53.393232, 58.958322) - LOCATION FROM NOMI
+NOMI 27
+(53.5043646, 58.9860615) - LOCATION FROM NOMI
+NOMI 28
+(53.321954500000004, 58.99369114336724) - LOCATION FROM NOMI
+NOMI 29
+(53.4027488, 58.956545899999995) - LOCATION FROM NOMI
+YANDEX 9
+{'latitude': '53.445939', 'longitude': '58.930758', 'Yandex_address': 'улица Василия Котова, 11', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 30
+(53.3356184, 58.99022664628434) - LOCATION FROM NOMI
+NOMI 31
+(53.50233505, 58.98372465) - LOCATION FROM NOMI
+YANDEX 10
+{'latitude': '53.342215', 'longitude': '58.999228', 'Yandex_address': 'улица Калмыкова, 45', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9+%D0%BC%D0%B0%D1%8F%D0%BA+%D1%83%D0%BB%2C++101&format=json&limit=1
+NOMI 32
+(53.49826805, 58.9865245) - LOCATION FROM NOMI
+NOMI 33
+(53.4015452, 58.9578075) - LOCATION FROM NOMI
+NOMI 34
+(53.4281972, 58.940553875) - LOCATION FROM NOMI
+NOMI 35
+(53.3867707, 59.08498213738318) - LOCATION FROM NOMI
+NOMI 36
+(53.401714, 58.9545355) - LOCATION FROM NOMI
+YANDEX 11
+{'latitude': '53.395368', 'longitude': '59.050755', 'Yandex_address': 'улица Кирова, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 12
+{'latitude': '53.338049', 'longitude': '59.044656', 'Yandex_address': 'СНТ Коммунальщик, 839', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 37
+(53.400041200000004, 58.9572121) - LOCATION FROM NOMI
+NOMI 38
+(53.428355499999995, 58.960190499999996) - LOCATION FROM NOMI
+YANDEX 13
+{'latitude': '53.395572', 'longitude': '59.043721', 'Yandex_address': 'Одесская улица, 20', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 39
+(53.4223229, 58.954052198738964) - LOCATION FROM NOMI
+NOMI 40
+(53.344748949999996, 59.00164587484882) - LOCATION FROM NOMI
+YANDEX 14
+{'latitude': '53.446095', 'longitude': '58.930606', 'Yandex_address': 'улица Василия Котова, 9', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 15
+{'latitude': '53.448540', 'longitude': '58.927857', 'Yandex_address': 'Малиновая улица, 32', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 16
+{'latitude': '53.327708', 'longitude': '58.988197', 'Yandex_address': 'улица имени Ивана Неплюева, 21', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 41
+(53.3762687, 58.99858660000001) - LOCATION FROM NOMI
+NOMI 42
+(53.421006399999996, 58.9182787770625) - LOCATION FROM NOMI
+NOMI 43
+(53.4043279, 58.9572309) - LOCATION FROM NOMI
+NOMI 44
+(53.3749146, 58.9995285) - LOCATION FROM NOMI
+YANDEX 17
+{'latitude': '53.375174', 'longitude': '59.040335', 'Yandex_address': 'улица Созвездий, 38', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 45
+(53.4204938, 58.950092999999995) - LOCATION FROM NOMI
+NOMI 1
+(53.331295600000004, 58.9811867) - LOCATION FROM NOMI
+NOMI 2
+(53.4028301, 58.9577692) - LOCATION FROM NOMI
+NOMI 3
+(53.502109000000004, 58.98739475) - LOCATION FROM NOMI
+NOMI 4
+(53.4038403, 58.957222900000005) - LOCATION FROM NOMI
+NOMI 5
+(53.334219250000004, 58.978166099999996) - LOCATION FROM NOMI
+NOMI 6
+(53.41787865, 58.916284720890076) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.446802', 'longitude': '58.926339', 'Yandex_address': 'улица Николая Кизименко, 16', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 7
+(53.4020264, 58.9534142) - LOCATION FROM NOMI
+NOMI 8
+(53.383131500000005, 59.033975) - LOCATION FROM NOMI
+NOMI 9
+(53.400502700000004, 58.9577916) - LOCATION FROM NOMI
+NOMI 10
+(53.4322598, 58.9513301) - LOCATION FROM NOMI
+NOMI 11
+(53.4319718, 58.95929410924714) - LOCATION FROM NOMI
+NOMI 12
+(53.3349104, 58.99199359628434) - LOCATION FROM NOMI
+NOMI 13
+(53.3702637, 58.9754269) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.445746', 'longitude': '58.930947', 'Yandex_address': 'улица Василия Котова, 15', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 14
+(53.4319281, 58.9493388) - LOCATION FROM NOMI
+NOMI 15
+(53.3334276, 58.9799862) - LOCATION FROM NOMI
+NOMI 16
+(53.3389378, 58.99296360055422) - LOCATION FROM NOMI
+NOMI 17
+(53.33678225, 58.98558823684713) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.446577', 'longitude': '58.931261', 'Yandex_address': 'улица Сергея Вавилова, 5', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 18
+(53.37669525, 58.998021155172566) - LOCATION FROM NOMI
+YANDEX 4
+{'latitude': '53.448041', 'longitude': '58.928656', 'Yandex_address': 'улица Вилия Богуна, 26', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 19
+(53.4057571, 58.958476000000005) - LOCATION FROM NOMI
+NOMI 20
+(53.33867465, 58.9784082) - LOCATION FROM NOMI
+NOMI 21
+(53.3389022, 58.98382032485232) - LOCATION FROM NOMI
+NOMI 22
+(53.52282305, 58.97969047916666) - LOCATION FROM NOMI
+NOMI 23
+(53.3628296, 58.982886500000006) - LOCATION FROM NOMI
+NOMI 24
+(53.3995884, 58.954575899999995) - LOCATION FROM NOMI
+NOMI 25
+(53.36638365, 59.008305095220585) - LOCATION FROM NOMI
+NOMI 26
+(53.343240800000004, 58.99995299911858) - LOCATION FROM NOMI
+NOMI 27
+(53.37260465, 58.9991648) - LOCATION FROM NOMI
+NOMI 28
+(53.4941408, 58.9861278) - LOCATION FROM NOMI
+NOMI 29
+(53.32190715, 58.99257795) - LOCATION FROM NOMI
+NOMI 30
+(53.4020297, 58.957239) - LOCATION FROM NOMI
+NOMI 31
+(53.495542900000004, 58.9864502) - LOCATION FROM NOMI
+NOMI 32
+(53.4881386, 58.9853381) - LOCATION FROM NOMI
+NOMI 33
+(53.44850675, 58.9308945) - LOCATION FROM NOMI
+NOMI 34
+(53.3932152, 59.0593274) - LOCATION FROM NOMI
+NOMI 35
+(53.372737099999995, 58.995679418647605) - LOCATION FROM NOMI
+NOMI 36
+(53.4026122, 58.9545619) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.325939', 'longitude': '58.990146', 'Yandex_address': 'Жемчужная улица, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 37
+(53.4045991, 58.9572366) - LOCATION FROM NOMI
+NOMI 38
+(53.3676718, 59.00360494877593) - LOCATION FROM NOMI
+NOMI 39
+(53.334565749999996, 58.981841674943624) - LOCATION FROM NOMI
+NOMI 40
+(53.3932978, 58.963327) - LOCATION FROM NOMI
+YANDEX 6
+{'latitude': '53.445703', 'longitude': '58.931459', 'Yandex_address': 'улица Сергея Вавилова, 18', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 41
+(53.4995635, 58.987529) - LOCATION FROM NOMI
+NOMI 42
+(53.367747050000006, 59.00097180000001) - LOCATION FROM NOMI
+NOMI 43
+(53.39893345, 58.95850005) - LOCATION FROM NOMI
+NOMI 44
+(53.4015452, 58.957239) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.381513', 'longitude': '59.034082', 'Yandex_address': 'переулок Ладыгина, 8', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 45
+(53.4228898, 58.9595997033699) - LOCATION FROM NOMI
+YANDEX 8
+{'latitude': '53.376738', 'longitude': '59.036472', 'Yandex_address': 'Просторная улица, 3', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.4023227, 58.9550769) - LOCATION FROM NOMI
+NOMI 2
+(53.3750112, 58.99726683888562) - LOCATION FROM NOMI
+NOMI 3
+(53.4269391, 58.94871034261776) - LOCATION FROM NOMI
+NOMI 4
+(53.334608450000005, 58.9968773) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.437642', 'longitude': '58.953890', 'Yandex_address': 'улица Автомобилистов, 14/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 5
+(53.496377949999996, 58.988271350000005) - LOCATION FROM NOMI
+NOMI 6
+(53.428341, 58.9590167) - LOCATION FROM NOMI
+NOMI 7
+(53.4274055, 58.96223005) - LOCATION FROM NOMI
+NOMI 8
+(53.4030412, 58.9550769) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.402042', 'longitude': '58.954815', 'Yandex_address': 'Ленинградский переулок, 39', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 9
+(53.33618095, 58.9929786286271) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.447028', 'longitude': '58.930615', 'Yandex_address': 'улица Василия Котова, 4', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 10
+(53.333567, 58.99368705734962) - LOCATION FROM NOMI
+YANDEX 4
+{'latitude': '53.425083', 'longitude': '58.950602', 'Yandex_address': 'Донская улица, 39А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 11
+(53.42170815, 58.947475844515154) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.446213', 'longitude': '58.930965', 'Yandex_address': 'улица Сергея Вавилова, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 12
+(53.322059249999995, 58.99470815) - LOCATION FROM NOMI
+NOMI 13
+(53.367264649999996, 58.99700198223486) - LOCATION FROM NOMI
+NOMI 14
+(53.43320235, 58.9524361) - LOCATION FROM NOMI
+NOMI 15
+(53.376831249999995, 58.997264125) - LOCATION FROM NOMI
+NOMI 16
+(53.3337715, 58.97935955) - LOCATION FROM NOMI
+YANDEX 6
+{'latitude': '53.446320', 'longitude': '58.926374', 'Yandex_address': 'улица Николая Кизименко, 12', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 17
+(53.4015534, 58.9555071) - LOCATION FROM NOMI
+NOMI 18
+(53.401407, 58.966607499999995) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.446518', 'longitude': '58.930668', 'Yandex_address': 'улица Сергея Вавилова, 4', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 19
+(53.3997006, 58.9584927) - LOCATION FROM NOMI
+NOMI 20
+(53.4038646, 58.9560534) - LOCATION FROM NOMI
+NOMI 21
+(53.4374731, 58.9553266) - LOCATION FROM NOMI
+NOMI 22
+(53.3609405, 59.100912183962265) - LOCATION FROM NOMI
+NOMI 23
+(53.3221803, 58.993548856632756) - LOCATION FROM NOMI
+NOMI 24
+(53.4024077, 58.956544) - LOCATION FROM NOMI
+NOMI 25
+(53.4907525, 58.985254600000005) - LOCATION FROM NOMI
+NOMI 26
+(53.50206025, 58.9879145) - LOCATION FROM NOMI
+NOMI 27
+(53.4040119, 58.953990450000006) - LOCATION FROM NOMI
+YANDEX 8
+{'latitude': '53.446636', 'longitude': '58.930552', 'Yandex_address': 'улица Сергея Вавилова, 2', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 9
+{'latitude': '53.376727', 'longitude': '59.037209', 'Yandex_address': 'улица Романтиков, 4', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 28
+(53.422462800000005, 58.97065917489918) - LOCATION FROM NOMI
+YANDEX 10
+{'latitude': '53.378671', 'longitude': '58.981549', 'Yandex_address': 'проспект Карла Маркса, 153', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 29
+(53.493991, 58.9851145) - LOCATION FROM NOMI
+NOMI 30
+(53.3267919, 58.9813955) - LOCATION FROM NOMI
+NOMI 31
+(53.336302, 58.98440922125935) - LOCATION FROM NOMI
+NOMI 32
+(53.33649185, 58.98836390331404) - LOCATION FROM NOMI
+NOMI 33
+(53.4030092, 58.9545314) - LOCATION FROM NOMI
+YANDEX 11
+{'latitude': '53.446449', 'longitude': '58.924686', 'Yandex_address': 'Малиновая улица, 12', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 34
+(53.4007996, 58.9545303) - LOCATION FROM NOMI
+YANDEX 12
+{'latitude': '53.341893', 'longitude': '59.046120', 'Yandex_address': 'СНТ Коммунальщик, 819', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 35
+(53.4262691, 58.95883430000001) - LOCATION FROM NOMI
+YANDEX 13
+{'latitude': '53.440527', 'longitude': '58.942634', 'Yandex_address': 'СНТ Метизник, 299', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 14
+{'latitude': '53.440887', 'longitude': '58.942580', 'Yandex_address': 'СНТ Метизник, 315', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 36
+(53.4383112, 58.90228957617845) - LOCATION FROM NOMI
+YANDEX 15
+{'latitude': '53.447135', 'longitude': '58.929051', 'Yandex_address': 'улица Вилия Богуна, 20', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 16
+{'latitude': '53.447274', 'longitude': '58.929060', 'Yandex_address': 'улица Вилия Богуна, 20/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 17
+{'latitude': '53.449564', 'longitude': '58.913969', 'Yandex_address': 'садовое товарищество Строитель-7, 619', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 18
+{'latitude': '53.447478', 'longitude': '58.929069', 'Yandex_address': 'улица Вилия Богуна, 22/1', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 19
+{'latitude': '53.452170', 'longitude': '58.985034', 'Yandex_address': 'садовое товарищество Калибровщик-2, 23', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 20
+{'latitude': '53.451629', 'longitude': '58.973069', 'Yandex_address': 'садовое товарищество Калибровщик-2, 501', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 21
+{'latitude': '53.386631', 'longitude': '58.905030', 'Yandex_address': 'садовое товарищество Ремонтник, 24', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 37
+(53.32359255, 58.99845854127921) - LOCATION FROM NOMI
+NOMI 38
+(53.3640726, 58.9941585) - LOCATION FROM NOMI
+NOMI 39
+(53.357842649999995, 58.97115988335036) - LOCATION FROM NOMI
+NOMI 40
+(53.357841, 58.96943065) - LOCATION FROM NOMI
+NOMI 41
+(53.447494, 59.07077996362872) - LOCATION FROM NOMI
+NOMI 42
+(53.337386800000004, 58.9914990487395) - LOCATION FROM NOMI
+YANDEX 22
+{'latitude': '53.360990', 'longitude': '58.935429', 'Yandex_address': 'садовое товарищество Мичурина-3, 831', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 23
+{'latitude': '53.355901', 'longitude': '58.945832', 'Yandex_address': 'садовое товарищество Мичурина-3, 574', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 24
+{'latitude': '53.362452', 'longitude': '58.944377', 'Yandex_address': 'садовое товарищество Мичурина-3, 43', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 25
+{'latitude': '53.355933', 'longitude': '58.941852', 'Yandex_address': 'садовое товарищество Мичурина-3, 771', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 26
+{'latitude': '53.361377', 'longitude': '58.937451', 'Yandex_address': 'садовое товарищество Мичурина-3, 720', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 27
+{'latitude': '53.355643', 'longitude': '58.943020', 'Yandex_address': 'садовое товарищество Мичурина-3, 766', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 28
+{'latitude': '53.361436', 'longitude': '58.942113', 'Yandex_address': 'садовое товарищество Мичурина-3, 325', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 29
+{'latitude': '53.360334', 'longitude': '58.947386', 'Yandex_address': 'садовое товарищество Мичурина-3, 69', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 30
+{'latitude': '53.360125', 'longitude': '58.945985', 'Yandex_address': 'садовое товарищество Мичурина-3, 165', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 31
+{'latitude': '53.358367', 'longitude': '58.941583', 'Yandex_address': 'садовое товарищество Мичурина-3, 660', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 32
+{'latitude': '53.361995', 'longitude': '58.934226', 'Yandex_address': 'садовое товарищество Мичурина-3, 843', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 33
+{'latitude': '53.361151', 'longitude': '58.938080', 'Yandex_address': 'садовое товарищество Мичурина-3, 628', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 34
+{'latitude': '53.358029', 'longitude': '58.949335', 'Yandex_address': 'садовое товарищество Мичурина-3, 92', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 35
+{'latitude': '53.364918', 'longitude': '58.940137', 'Yandex_address': 'садовое товарищество Мичурина-3, 111', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 36
+{'latitude': '53.364456', 'longitude': '58.937307', 'Yandex_address': 'садовое товарищество Мичурина-3, 374', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 37
+{'latitude': '53.359872', 'longitude': '58.946533', 'Yandex_address': 'садовое товарищество Мичурина-3, 169', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 38
+{'latitude': '53.359061', 'longitude': '58.946452', 'Yandex_address': 'садовое товарищество Мичурина-3, 275', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 39
+{'latitude': '53.365090', 'longitude': '58.939777', 'Yandex_address': 'садовое товарищество Мичурина-3, 109', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 40
+{'latitude': '53.356057', 'longitude': '58.944242', 'Yandex_address': 'садовое товарищество Мичурина-3, 750', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 41
+{'latitude': '53.360635', 'longitude': '58.935879', 'Yandex_address': 'садовое товарищество Мичурина-3, 827', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 42
+{'latitude': '53.365031', 'longitude': '58.937558', 'Yandex_address': 'садовое товарищество Мичурина-3, 305', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 43
+{'latitude': '53.362849', 'longitude': '58.936750', 'Yandex_address': 'садовое товарищество Мичурина-3, 609', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 44
+{'latitude': '53.363521', 'longitude': '58.941053', 'Yandex_address': 'садовое товарищество Мичурина-3, 128', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 45
+{'latitude': '53.357717', 'longitude': '58.943227', 'Yandex_address': 'садовое товарищество Мичурина-3, 667', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 46
+{'latitude': '53.356320', 'longitude': '58.945023', 'Yandex_address': 'садовое товарищество Мичурина-3, 683', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 47
+{'latitude': '53.365552', 'longitude': '58.930713', 'Yandex_address': 'садовое товарищество Мичурина-3, 875', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 48
+{'latitude': '53.358878', 'longitude': '58.948904', 'Yandex_address': 'садовое товарищество Мичурина-3, 83', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 49
+{'latitude': '53.357932', 'longitude': '58.945122', 'Yandex_address': 'садовое товарищество Мичурина-3, 506', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 50
+{'latitude': '53.362661', 'longitude': '58.939140', 'Yandex_address': 'садовое товарищество Мичурина-3, 482', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 51
+{'latitude': '53.359883', 'longitude': '58.943838', 'Yandex_address': 'садовое товарищество Мичурина-3, 423', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 52
+{'latitude': '53.362296', 'longitude': '58.943469', 'Yandex_address': 'садовое товарищество Мичурина-3, 141', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 53
+{'latitude': '53.366105', 'longitude': '58.927686', 'Yandex_address': 'садовое товарищество Мичурина-3, 898', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 54
+{'latitude': '53.355723', 'longitude': '58.942113', 'Yandex_address': 'садовое товарищество Мичурина-3, 769', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 55
+{'latitude': '53.358147', 'longitude': '58.947889', 'Yandex_address': 'садовое товарищество Мичурина-3, 188', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 56
+{'latitude': '53.357610', 'longitude': '58.945580', 'Yandex_address': 'садовое товарищество Мичурина-3, 508', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 57
+{'latitude': '53.360254', 'longitude': '58.945212', 'Yandex_address': 'садовое товарищество Мичурина-3, 164', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 58
+{'latitude': '53.363215', 'longitude': '58.939849', 'Yandex_address': 'садовое товарищество Мичурина-3, 315', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 59
+{'latitude': '53.363951', 'longitude': '58.940271', 'Yandex_address': 'садовое товарищество Мичурина-3, 221', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++669&format=json&limit=1
+YANDEX 60
+{'latitude': '53.357491', 'longitude': '58.943541', 'Yandex_address': 'садовое товарищество Мичурина-3, 669', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 61
+{'latitude': '53.363473', 'longitude': '58.940325', 'Yandex_address': 'садовое товарищество Мичурина-3, 228', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 62
+{'latitude': '53.359152', 'longitude': '58.945015', 'Yandex_address': 'садовое товарищество Мичурина-3, 338', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 63
+{'latitude': '53.360544', 'longitude': '58.947170', 'Yandex_address': 'садовое товарищество Мичурина-3, 67', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 64
+{'latitude': '53.361742', 'longitude': '58.944476', 'Yandex_address': 'садовое товарищество Мичурина-3, 50', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 65
+{'latitude': '53.356508', 'longitude': '58.944781', 'Yandex_address': 'садовое товарищество Мичурина-3, 681', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 66
+{'latitude': '53.357927', 'longitude': '58.946281', 'Yandex_address': 'садовое товарищество Мичурина-3, 445', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 67
+{'latitude': '53.359071', 'longitude': '58.944817', 'Yandex_address': 'садовое товарищество Мичурина-3, 433', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 68
+{'latitude': '53.366019', 'longitude': '58.934190', 'Yandex_address': 'садовое товарищество Мичурина-3, 517', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 69
+{'latitude': '53.360001', 'longitude': '58.946335', 'Yandex_address': 'садовое товарищество Мичурина-3, 167', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 70
+{'latitude': '53.359706', 'longitude': '58.945113', 'Yandex_address': 'садовое товарищество Мичурина-3, 266', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 71
+{'latitude': '53.360130', 'longitude': '58.943775', 'Yandex_address': 'садовое товарищество Мичурина-3, 332', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 72
+{'latitude': '53.365138', 'longitude': '58.933795', 'Yandex_address': 'садовое товарищество Мичурина-3, 583', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 73
+{'latitude': '53.365267', 'longitude': '58.936984', 'Yandex_address': 'садовое товарищество Мичурина-3, 363', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 74
+{'latitude': '53.359630', 'longitude': '58.944386', 'Yandex_address': 'садовое товарищество Мичурина-3, 335', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 75
+{'latitude': '53.365299', 'longitude': '58.940101', 'Yandex_address': 'садовое товарищество Мичурина-3, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 76
+{'latitude': '53.362183', 'longitude': '58.936489', 'Yandex_address': 'садовое товарищество Мичурина-3, 715', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 77
+{'latitude': '53.357518', 'longitude': '58.950422', 'Yandex_address': 'садовое товарищество Мичурина-3, 97', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 78
+{'latitude': '53.363859', 'longitude': '58.940685', 'Yandex_address': 'садовое товарищество Мичурина-3, 124', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 79
+{'latitude': '53.363129', 'longitude': '58.943514', 'Yandex_address': 'садовое товарищество Мичурина-3, 35', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 80
+{'latitude': '53.361167', 'longitude': '58.943272', 'Yandex_address': 'садовое товарищество Мичурина-3, 252', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 81
+{'latitude': '53.357771', 'longitude': '58.945356', 'Yandex_address': 'садовое товарищество Мичурина-3, 507', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 82
+{'latitude': '53.362570', 'longitude': '58.942302', 'Yandex_address': 'садовое товарищество Мичурина-3, 138', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 83
+{'latitude': '53.361689', 'longitude': '58.940379', 'Yandex_address': 'садовое товарищество Мичурина-3, 485', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 84
+{'latitude': '53.361162', 'longitude': '58.943793', 'Yandex_address': 'садовое товарищество Мичурина-3, 253', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 85
+{'latitude': '53.358776', 'longitude': '58.941924', 'Yandex_address': 'садовое товарищество Мичурина-3, 655', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 86
+{'latitude': '53.359695', 'longitude': '58.946721', 'Yandex_address': 'садовое товарищество Мичурина-3, 171', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 87
+{'latitude': '53.362591', 'longitude': '58.936202', 'Yandex_address': 'садовое товарищество Мичурина-3, 612', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 88
+{'latitude': '53.362462', 'longitude': '58.942634', 'Yandex_address': 'садовое товарищество Мичурина-3, 140', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 89
+{'latitude': '53.358572', 'longitude': '58.944305', 'Yandex_address': 'садовое товарищество Мичурина-3, 503', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 90
+{'latitude': '53.365224', 'longitude': '58.933992', 'Yandex_address': 'садовое товарищество Мичурина-3, 521', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 91
+{'latitude': '53.359496', 'longitude': '58.940119', 'Yandex_address': 'садовое товарищество Мичурина-3, 648', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 92
+{'latitude': '53.362914', 'longitude': '58.940280', 'Yandex_address': 'садовое товарищество Мичурина-3, 317', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++61&format=json&limit=1
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++61&format=json&limit=1
+YANDEX 93
+{'latitude': '53.360834', 'longitude': '58.946425', 'Yandex_address': 'садовое товарищество Мичурина-3, 61', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 94
+{'latitude': '53.360136', 'longitude': '58.942400', 'Yandex_address': 'садовое товарищество Мичурина-3, 494', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 95
+{'latitude': '53.360431', 'longitude': '58.946075', 'Yandex_address': 'садовое товарищество Мичурина-3, 64', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 96
+{'latitude': '53.362930', 'longitude': '58.932923', 'Yandex_address': 'садовое товарищество Мичурина-3, 855', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 97
+{'latitude': '53.362704', 'longitude': '58.935807', 'Yandex_address': 'садовое товарищество Мичурина-3, 712', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 98
+{'latitude': '53.354751', 'longitude': '58.943353', 'Yandex_address': 'садовое товарищество Мичурина-3, 757', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 99
+{'latitude': '53.359362', 'longitude': '58.937505', 'Yandex_address': 'садовое товарищество Мичурина-3, 813', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 100
+{'latitude': '53.362693', 'longitude': '58.942715', 'Yandex_address': 'садовое товарищество Мичурина-3, 135', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 101
+{'latitude': '53.364875', 'longitude': '58.936651', 'Yandex_address': 'садовое товарищество Мичурина-3, 368', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 102
+{'latitude': '53.363182', 'longitude': '58.938708', 'Yandex_address': 'садовое товарищество Мичурина-3, 386', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++532&format=json&limit=1
+YANDEX 103
+{'latitude': '53.363268', 'longitude': '58.936481', 'Yandex_address': 'садовое товарищество Мичурина-3, 532', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++45&format=json&limit=1
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++45&format=json&limit=1
+YANDEX 104
+{'latitude': '53.362317', 'longitude': '58.944637', 'Yandex_address': 'садовое товарищество Мичурина-3, 45', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 105
+{'latitude': '53.355068', 'longitude': '58.942930', 'Yandex_address': 'садовое товарищество Мичурина-3, 761', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 106
+{'latitude': '53.356664', 'longitude': '58.948177', 'Yandex_address': 'садовое товарищество Мичурина-3, 352', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 107
+{'latitude': '53.357647', 'longitude': '58.948500', 'Yandex_address': 'садовое товарищество Мичурина-3, 194', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++729&format=json&limit=1
+YANDEX 108
+{'latitude': '53.359738', 'longitude': '58.939535', 'Yandex_address': 'садовое товарищество Мичурина-3, 729', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 109
+{'latitude': '53.362317', 'longitude': '58.942347', 'Yandex_address': 'садовое товарищество Мичурина-3, 239', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 110
+{'latitude': '53.355707', 'longitude': '58.946030', 'Yandex_address': 'садовое товарищество Мичурина-3, 575', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 111
+{'latitude': '53.357303', 'longitude': '58.943775', 'Yandex_address': 'садовое товарищество Мичурина-3, 671', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 112
+{'latitude': '53.358867', 'longitude': '58.940954', 'Yandex_address': 'садовое товарищество Мичурина-3, 654', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 113
+{'latitude': '53.359491', 'longitude': '58.943442', 'Yandex_address': 'садовое товарищество Мичурина-3, 428', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 114
+{'latitude': '53.361092', 'longitude': '58.942535', 'Yandex_address': 'садовое товарищество Мичурина-3, 327', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 115
+{'latitude': '53.363612', 'longitude': '58.940694', 'Yandex_address': 'садовое товарищество Мичурина-3, 225', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 116
+{'latitude': '53.358265', 'longitude': '58.939687', 'Yandex_address': 'садовое товарищество Мичурина-3, 798', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 117
+{'latitude': '53.366019', 'longitude': '58.932753', 'Yandex_address': 'садовое товарищество Мичурина-3, 693', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 118
+{'latitude': '53.362199', 'longitude': '58.937550', 'Yandex_address': 'садовое товарищество Мичурина-3, 617', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 119
+{'latitude': '53.364112', 'longitude': '58.940083', 'Yandex_address': 'садовое товарищество Мичурина-3, 219', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 120
+{'latitude': '53.360060', 'longitude': '58.943586', 'Yandex_address': 'садовое товарищество Мичурина-3, 421', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 121
+{'latitude': '53.360168', 'longitude': '58.939310', 'Yandex_address': 'садовое товарищество Мичурина-3, 640', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 122
+{'latitude': '53.364875', 'longitude': '58.933606', 'Yandex_address': 'садовое товарищество Мичурина-3, 588', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 123
+{'latitude': '53.359888', 'longitude': '58.939337', 'Yandex_address': 'садовое товарищество Мичурина-3, 728', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 124
+{'latitude': '53.363000', 'longitude': '58.938735', 'Yandex_address': 'садовое товарищество Мичурина-3, 480', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 125
+{'latitude': '53.365751', 'longitude': '58.937451', 'Yandex_address': 'садовое товарищество Мичурина-3, 206', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 126
+{'latitude': '53.365154', 'longitude': '58.938187', 'Yandex_address': 'садовое товарищество Мичурина-3, 212', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 127
+{'latitude': '53.363134', 'longitude': '58.941313', 'Yandex_address': 'садовое товарищество Мичурина-3, 231', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++794&format=json&limit=1
+YANDEX 128
+{'latitude': '53.357932', 'longitude': '58.940119', 'Yandex_address': 'садовое товарищество Мичурина-3, 794', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++453&format=json&limit=1
+YANDEX 129
+{'latitude': '53.357282', 'longitude': '58.947108', 'Yandex_address': 'садовое товарищество Мичурина-3, 453', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 130
+{'latitude': '53.363048', 'longitude': '58.942957', 'Yandex_address': 'садовое товарищество Мичурина-3, 34', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 131
+{'latitude': '53.357911', 'longitude': '58.947943', 'Yandex_address': 'садовое товарищество Мичурина-3, 289', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 132
+{'latitude': '53.359899', 'longitude': '58.936975', 'Yandex_address': 'садовое товарищество Мичурина-3, 819', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 133
+{'latitude': '53.365977', 'longitude': '58.938565', 'Yandex_address': 'садовое товарищество Мичурина-3, 99', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 134
+{'latitude': '53.361946', 'longitude': '58.937046', 'Yandex_address': 'садовое товарищество Мичурина-3, 620', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 135
+{'latitude': '53.359937', 'longitude': '58.945607', 'Yandex_address': 'садовое товарищество Мичурина-3, 168', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 136
+{'latitude': '53.365590', 'longitude': '58.928396', 'Yandex_address': 'садовое товарищество Мичурина-3, 895', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 137
+{'latitude': '53.357792', 'longitude': '58.949434', 'Yandex_address': 'садовое товарищество Мичурина-3, 94', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 138
+{'latitude': '53.364386', 'longitude': '58.940200', 'Yandex_address': 'садовое товарищество Мичурина-3, 118', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 139
+{'latitude': '53.360453', 'longitude': '58.943344', 'Yandex_address': 'садовое товарищество Мичурина-3, 330', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 140
+{'latitude': '53.360496', 'longitude': '58.945742', 'Yandex_address': 'садовое товарищество Мичурина-3, 161', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 141
+{'latitude': '53.364579', 'longitude': '58.933085', 'Yandex_address': 'садовое товарищество Мичурина-3, 701', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 142
+{'latitude': '53.364289', 'longitude': '58.939858', 'Yandex_address': 'садовое товарищество Мичурина-3, 217', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 143
+{'latitude': '53.363956', 'longitude': '58.939732', 'Yandex_address': 'садовое товарищество Мичурина-3, 224', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 144
+{'latitude': '53.365998', 'longitude': '58.936301', 'Yandex_address': 'садовое товарищество Мичурина-3, 298', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 145
+{'latitude': '53.361167', 'longitude': '58.938583', 'Yandex_address': 'садовое товарищество Мичурина-3, 627', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 146
+{'latitude': '53.363661', 'longitude': '58.939903', 'Yandex_address': 'садовое товарищество Мичурина-3, 226', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 147
+{'latitude': '53.363354', 'longitude': '58.940541', 'Yandex_address': 'садовое товарищество Мичурина-3, 230', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 148
+{'latitude': '53.357083', 'longitude': '58.948428', 'Yandex_address': 'садовое товарищество Мичурина-3, 294', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 149
+{'latitude': '53.357067', 'longitude': '58.943245', 'Yandex_address': 'садовое товарищество Мичурина-3, 674', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 150
+{'latitude': '53.358351', 'longitude': '58.948320', 'Yandex_address': 'садовое товарищество Мичурина-3, 185', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 151
+{'latitude': '53.361683', 'longitude': '58.935376', 'Yandex_address': 'садовое товарищество Мичурина-3, 838', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 152
+{'latitude': '53.363655', 'longitude': '58.940873', 'Yandex_address': 'садовое товарищество Мичурина-3, 126', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 153
+{'latitude': '53.365461', 'longitude': '58.938619', 'Yandex_address': 'садовое товарищество Мичурина-3, 106', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 154
+{'latitude': '53.360861', 'longitude': '58.938556', 'Yandex_address': 'садовое товарищество Мичурина-3, 632', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 155
+{'latitude': '53.358679', 'longitude': '58.942284', 'Yandex_address': 'садовое товарищество Мичурина-3, 558', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 156
+{'latitude': '53.364622', 'longitude': '58.940541', 'Yandex_address': 'садовое товарищество Мичурина-3, 115', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 157
+{'latitude': '53.362307', 'longitude': '58.933804', 'Yandex_address': 'садовое товарищество Мичурина-3, 847', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 158
+{'latitude': '53.361973', 'longitude': '58.943865', 'Yandex_address': 'садовое товарищество Мичурина-3, 145', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 159
+{'latitude': '53.359845', 'longitude': '58.947674', 'Yandex_address': 'садовое товарищество Мичурина-3, 71', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 160
+{'latitude': '53.362032', 'longitude': '58.936606', 'Yandex_address': 'садовое товарищество Мичурина-3, 716', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 161
+{'latitude': '53.361656', 'longitude': '58.934603', 'Yandex_address': 'садовое товарищество Мичурина-3, 839', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 162
+{'latitude': '53.359990', 'longitude': '58.939535', 'Yandex_address': 'садовое товарищество Мичурина-3, 642', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 163
+{'latitude': '53.359851', 'longitude': '58.947063', 'Yandex_address': 'садовое товарищество Мичурина-3, 72', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 164
+{'latitude': '53.362607', 'longitude': '58.937325', 'Yandex_address': 'садовое товарищество Мичурина-3, 536', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 165
+{'latitude': '53.358013', 'longitude': '58.946443', 'Yandex_address': 'садовое товарищество Мичурина-3, 344', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 166
+{'latitude': '53.365880', 'longitude': '58.929501', 'Yandex_address': 'садовое товарищество Мичурина-3, 879', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 167
+{'latitude': '53.364225', 'longitude': '58.935268', 'Yandex_address': 'садовое товарищество Мичурина-3, 527', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 168
+{'latitude': '53.360592', 'longitude': '58.939616', 'Yandex_address': 'садовое товарищество Мичурина-3, 635', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 169
+{'latitude': '53.365488', 'longitude': '58.939211', 'Yandex_address': 'садовое товарищество Мичурина-3, 105', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 170
+{'latitude': '53.364365', 'longitude': '58.931288', 'Yandex_address': 'садовое товарищество Мичурина-3, 886', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 171
+{'latitude': '53.360931', 'longitude': '58.944395', 'Yandex_address': 'садовое товарищество Мичурина-3, 156', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 172
+{'latitude': '53.360651', 'longitude': '58.938681', 'Yandex_address': 'садовое товарищество Мичурина-3, 634', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 173
+{'latitude': '53.359792', 'longitude': '58.944179', 'Yandex_address': 'садовое товарищество Мичурина-3, 334', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 174
+{'latitude': '53.365246', 'longitude': '58.937891', 'Yandex_address': 'садовое товарищество Мичурина-3, 210', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 175
+{'latitude': '53.364123', 'longitude': '58.937316', 'Yandex_address': 'садовое товарищество Мичурина-3, 474', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 176
+{'latitude': '53.357921', 'longitude': '58.947386', 'Yandex_address': 'садовое товарищество Мичурина-3, 284', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 177
+{'latitude': '53.358566', 'longitude': '58.946497', 'Yandex_address': 'садовое товарищество Мичурина-3, 278', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 178
+{'latitude': '53.358335', 'longitude': '58.946793', 'Yandex_address': 'садовое товарищество Мичурина-3, 280', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 179
+{'latitude': '53.362957', 'longitude': '58.935789', 'Yandex_address': 'садовое товарищество Мичурина-3, 608', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 180
+{'latitude': '53.365402', 'longitude': '58.939535', 'Yandex_address': 'садовое товарищество Мичурина-3, 107', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 181
+{'latitude': '53.360947', 'longitude': '58.942733', 'Yandex_address': 'садовое товарищество Мичурина-3, 328', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 182
+{'latitude': '53.365966', 'longitude': '58.931432', 'Yandex_address': 'садовое товарищество Мичурина-3, 871', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 183
+{'latitude': '53.364655', 'longitude': '58.939373', 'Yandex_address': 'садовое товарищество Мичурина-3, 213', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 184
+{'latitude': '53.357406', 'longitude': '58.943946', 'Yandex_address': 'садовое товарищество Мичурина-3, 565', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 185
+{'latitude': '53.359217', 'longitude': '58.937711', 'Yandex_address': 'садовое товарищество Мичурина-3, 811', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 186
+{'latitude': '53.363397', 'longitude': '58.939616', 'Yandex_address': 'садовое товарищество Мичурина-3, 314', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 187
+{'latitude': '53.361608', 'longitude': '58.941897', 'Yandex_address': 'садовое товарищество Мичурина-3, 324', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 188
+{'latitude': '53.365063', 'longitude': '58.940397', 'Yandex_address': 'садовое товарищество Мичурина-3, 12', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 189
+{'latitude': '53.363929', 'longitude': '58.934549', 'Yandex_address': 'садовое товарищество Мичурина-3, 598', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 190
+{'latitude': '53.360592', 'longitude': '58.945913', 'Yandex_address': 'садовое товарищество Мичурина-3, 62', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 191
+{'latitude': '53.366084', 'longitude': '58.937801', 'Yandex_address': 'садовое товарищество Мичурина-3, 100', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 192
+{'latitude': '53.359964', 'longitude': '58.944808', 'Yandex_address': 'садовое товарищество Мичурина-3, 264', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 193
+{'latitude': '53.362785', 'longitude': '58.942176', 'Yandex_address': 'садовое товарищество Мичурина-3, 136', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 194
+{'latitude': '53.359179', 'longitude': '58.941673', 'Yandex_address': 'садовое товарищество Мичурина-3, 555', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 195
+{'latitude': '53.359034', 'longitude': '58.940730', 'Yandex_address': 'садовое товарищество Мичурина-3, 652', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 196
+{'latitude': '53.358233', 'longitude': '58.949371', 'Yandex_address': 'садовое товарищество Мичурина-3, 89', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 197
+{'latitude': '53.355756', 'longitude': '58.944916', 'Yandex_address': 'садовое товарищество Мичурина-3, 690', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 198
+{'latitude': '53.363333', 'longitude': '58.934989', 'Yandex_address': 'садовое товарищество Мичурина-3, 709', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 199
+{'latitude': '53.363634', 'longitude': '58.939023', 'Yandex_address': 'садовое товарищество Мичурина-3, 381', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 200
+{'latitude': '53.365665', 'longitude': '58.932788', 'Yandex_address': 'садовое товарищество Мичурина-3, 695', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 201
+{'latitude': '53.356744', 'longitude': '58.947090', 'Yandex_address': 'садовое товарищество Мичурина-3, 460', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 202
+{'latitude': '53.360958', 'longitude': '58.944053', 'Yandex_address': 'садовое товарищество Мичурина-3, 255', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 203
+{'latitude': '53.363956', 'longitude': '58.935888', 'Yandex_address': 'садовое товарищество Мичурина-3, 529', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 204
+{'latitude': '53.360184', 'longitude': '58.945023', 'Yandex_address': 'садовое товарищество Мичурина-3, 263', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++623&format=json&limit=1
+YANDEX 205
+{'latitude': '53.361678', 'longitude': '58.938232', 'Yandex_address': 'садовое товарищество Мичурина-3, 623', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 206
+{'latitude': '53.361866', 'longitude': '58.935151', 'Yandex_address': 'садовое товарищество Мичурина-3, 840', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 207
+{'latitude': '53.365853', 'longitude': '58.933193', 'Yandex_address': 'садовое товарищество Мичурина-3, 576', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 208
+{'latitude': '53.358072', 'longitude': '58.947700', 'Yandex_address': 'садовое товарищество Мичурина-3, 287', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 209
+{'latitude': '53.359109', 'longitude': '58.940370', 'Yandex_address': 'садовое товарищество Мичурина-3, 732', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 210
+{'latitude': '53.363811', 'longitude': '58.936058', 'Yandex_address': 'садовое товарищество Мичурина-3, 530', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 211
+{'latitude': '53.363005', 'longitude': '58.936498', 'Yandex_address': 'садовое товарищество Мичурина-3, 607', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 212
+{'latitude': '53.361065', 'longitude': '58.937891', 'Yandex_address': 'садовое товарищество Мичурина-3, 721', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 213
+{'latitude': '53.362710', 'longitude': '58.943218', 'Yandex_address': 'садовое товарищество Мичурина-3, 38', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 214
+{'latitude': '53.359147', 'longitude': '58.946640', 'Yandex_address': 'садовое товарищество Мичурина-3, 176', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 215
+{'latitude': '53.355928', 'longitude': '58.944646', 'Yandex_address': 'садовое товарищество Мичурина-3, 688', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 216
+{'latitude': '53.363489', 'longitude': '58.935906', 'Yandex_address': 'садовое товарищество Мичурина-3, 603', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 217
+{'latitude': '53.364338', 'longitude': '58.941170', 'Yandex_address': 'садовое товарищество Мичурина-3, 20', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 218
+{'latitude': '53.364069', 'longitude': '58.934343', 'Yandex_address': 'садовое товарищество Мичурина-3, 596', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 219
+{'latitude': '53.358663', 'longitude': '58.944493', 'Yandex_address': 'садовое товарищество Мичурина-3, 438', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 220
+{'latitude': '53.358045', 'longitude': '58.942032', 'Yandex_address': 'садовое товарищество Мичурина-3, 664', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 221
+{'latitude': '53.355164', 'longitude': '58.943604', 'Yandex_address': 'садовое товарищество Мичурина-3, 760', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 222
+{'latitude': '53.358298', 'longitude': '58.948814', 'Yandex_address': 'садовое товарищество Мичурина-3, 88', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 223
+{'latitude': '53.359851', 'longitude': '58.945446', 'Yandex_address': 'садовое товарищество Мичурина-3, 267', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 224
+{'latitude': '53.358733', 'longitude': '58.941394', 'Yandex_address': 'садовое товарищество Мичурина-3, 656', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 225
+{'latitude': '53.364977', 'longitude': '58.934019', 'Yandex_address': 'садовое товарищество Мичурина-3, 585', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 226
+{'latitude': '53.358029', 'longitude': '58.948707', 'Yandex_address': 'садовое товарищество Мичурина-3, 189', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 227
+{'latitude': '53.358212', 'longitude': '58.948626', 'Yandex_address': 'садовое товарищество Мичурина-3, 187', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 228
+{'latitude': '53.360066', 'longitude': '58.940271', 'Yandex_address': 'садовое товарищество Мичурина-3, 641', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 229
+{'latitude': '53.359566', 'longitude': '58.943074', 'Yandex_address': 'садовое товарищество Мичурина-3, 497', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 230
+{'latitude': '53.357728', 'longitude': '58.948123', 'Yandex_address': 'садовое товарищество Мичурина-3, 291', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 231
+{'latitude': '53.360839', 'longitude': '58.936400', 'Yandex_address': 'садовое товарищество Мичурина-3, 828', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 232
+{'latitude': '53.362903', 'longitude': '58.939131', 'Yandex_address': 'садовое товарищество Мичурина-3, 390', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 233
+{'latitude': '53.355804', 'longitude': '58.944296', 'Yandex_address': 'садовое товарищество Мичурина-3, 751', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 234
+{'latitude': '53.357513', 'longitude': '58.947072', 'Yandex_address': 'садовое товарищество Мичурина-3, 347', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 235
+{'latitude': '53.357658', 'longitude': '58.949874', 'Yandex_address': 'садовое товарищество Мичурина-3, 96', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 236
+{'latitude': '53.358932', 'longitude': '58.945023', 'Yandex_address': 'садовое товарищество Мичурина-3, 435', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 237
+{'latitude': '53.363478', 'longitude': '58.939238', 'Yandex_address': 'садовое товарищество Мичурина-3, 383', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 238
+{'latitude': '53.365353', 'longitude': '58.936013', 'Yandex_address': 'садовое товарищество Мичурина-3, 362', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 239
+{'latitude': '53.364144', 'longitude': '58.935061', 'Yandex_address': 'садовое товарищество Мичурина-3, 595', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 240
+{'latitude': '53.360350', 'longitude': '58.944278', 'Yandex_address': 'садовое товарищество Мичурина-3, 260', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++467&format=json&limit=1
+YANDEX 241
+{'latitude': '53.365267', 'longitude': '58.935852', 'Yandex_address': 'садовое товарищество Мичурина-3, 467', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 242
+{'latitude': '53.358346', 'longitude': '58.944907', 'Yandex_address': 'садовое товарищество Мичурина-3, 440', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 243
+{'latitude': '53.363978', 'longitude': '58.935331', 'Yandex_address': 'садовое товарищество Мичурина-3, 597', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 244
+{'latitude': '53.362425', 'longitude': '58.941978', 'Yandex_address': 'садовое товарищество Мичурина-3, 237', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 245
+{'latitude': '53.356234', 'longitude': '58.941475', 'Yandex_address': 'садовое товарищество Мичурина-3, 775', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 246
+{'latitude': '53.363096', 'longitude': '58.939939', 'Yandex_address': 'садовое товарищество Мичурина-3, 316', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 247
+{'latitude': '53.361866', 'longitude': '58.936840', 'Yandex_address': 'садовое товарищество Мичурина-3, 717', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 248
+{'latitude': '53.358281', 'longitude': '58.941412', 'Yandex_address': 'садовое товарищество Мичурина-3, 737', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 249
+{'latitude': '53.365068', 'longitude': '58.938843', 'Yandex_address': 'садовое товарищество Мичурина-3, 209', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++865&format=json&limit=1
+YANDEX 250
+{'latitude': '53.364682', 'longitude': '58.931719', 'Yandex_address': 'садовое товарищество Мичурина-3, 865', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 251
+{'latitude': '53.361764', 'longitude': '58.942418', 'Yandex_address': 'садовое товарищество Мичурина-3, 246', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 252
+{'latitude': '53.363752', 'longitude': '58.938035', 'Yandex_address': 'садовое товарищество Мичурина-3, 380', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++429&format=json&limit=1
+YANDEX 253
+{'latitude': '53.359389', 'longitude': '58.944413', 'Yandex_address': 'садовое товарищество Мичурина-3, 429', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++129&format=json&limit=1
+YANDEX 254
+{'latitude': '53.363435', 'longitude': '58.942014', 'Yandex_address': 'садовое товарищество Мичурина-3, 129', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 255
+{'latitude': '53.363564', 'longitude': '58.936094', 'Yandex_address': 'садовое товарищество Мичурина-3, 531', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 256
+{'latitude': '53.361533', 'longitude': '58.934899', 'Yandex_address': 'садовое товарищество Мичурина-3, 837', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 257
+{'latitude': '53.361484', 'longitude': '58.935663', 'Yandex_address': 'садовое товарищество Мичурина-3, 836', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 258
+{'latitude': '53.356417', 'longitude': '58.947036', 'Yandex_address': 'садовое товарищество Мичурина-3, 515', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++123&format=json&limit=1
+YANDEX 259
+{'latitude': '53.363935', 'longitude': '58.941376', 'Yandex_address': 'садовое товарищество Мичурина-3, 123', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 260
+{'latitude': '53.357336', 'longitude': '58.946146', 'Yandex_address': 'садовое товарищество Мичурина-3, 452', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 261
+{'latitude': '53.363773', 'longitude': '58.942697', 'Yandex_address': 'садовое товарищество Мичурина-3, 29', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 262
+{'latitude': '53.366073', 'longitude': '58.935977', 'Yandex_address': 'садовое товарищество Мичурина-3, 353', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 263
+{'latitude': '53.358126', 'longitude': '58.949021', 'Yandex_address': 'садовое товарищество Мичурина-3, 90', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 264
+{'latitude': '53.365085', 'longitude': '58.930390', 'Yandex_address': 'садовое товарищество Мичурина-3, 889', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 265
+{'latitude': '53.363129', 'longitude': '58.940792', 'Yandex_address': 'садовое товарищество Мичурина-3, 232', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 266
+{'latitude': '53.361855', 'longitude': '58.941304', 'Yandex_address': 'садовое товарищество Мичурина-3, 401', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 267
+{'latitude': '53.358797', 'longitude': '58.948177', 'Yandex_address': 'садовое товарищество Мичурина-3, 82', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 268
+{'latitude': '53.363897', 'longitude': '58.938969', 'Yandex_address': 'садовое товарищество Мичурина-3, 311', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 269
+{'latitude': '53.357099', 'longitude': '58.947305', 'Yandex_address': 'садовое товарищество Мичурина-3, 455', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 270
+{'latitude': '53.360743', 'longitude': '58.938277', 'Yandex_address': 'садовое товарищество Мичурина-3, 723', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 271
+{'latitude': '53.357728', 'longitude': '58.949246', 'Yandex_address': 'садовое товарищество Мичурина-3, 193', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 272
+{'latitude': '53.361715', 'longitude': '58.945239', 'Yandex_address': 'садовое товарищество Мичурина-3, 51', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 273
+{'latitude': '53.364896', 'longitude': '58.934414', 'Yandex_address': 'садовое товарищество Мичурина-3, 523', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 274
+{'latitude': '53.362640', 'longitude': '58.942993', 'Yandex_address': 'садовое товарищество Мичурина-3, 137', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 275
+{'latitude': '53.362129', 'longitude': '58.936813', 'Yandex_address': 'садовое товарищество Мичурина-3, 618', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 276
+{'latitude': '53.356804', 'longitude': '58.944395', 'Yandex_address': 'садовое товарищество Мичурина-3, 677', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 277
+{'latitude': '53.361119', 'longitude': '58.935906', 'Yandex_address': 'садовое товарищество Мичурина-3, 832', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 278
+{'latitude': '53.362924', 'longitude': '58.936912', 'Yandex_address': 'садовое товарищество Мичурина-3, 534', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 279
+{'latitude': '53.357185', 'longitude': '58.947458', 'Yandex_address': 'садовое товарищество Мичурина-3, 349', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 280
+{'latitude': '53.356906', 'longitude': '58.943424', 'Yandex_address': 'садовое товарищество Мичурина-3, 676', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 281
+{'latitude': '53.360662', 'longitude': '58.939786', 'Yandex_address': 'садовое товарищество Мичурина-3, 547', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 282
+{'latitude': '53.361409', 'longitude': '58.943757', 'Yandex_address': 'садовое товарищество Мичурина-3, 152', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 283
+{'latitude': '53.360179', 'longitude': '58.936481', 'Yandex_address': 'садовое товарищество Мичурина-3, 823', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 284
+{'latitude': '53.360410', 'longitude': '58.938717', 'Yandex_address': 'садовое товарищество Мичурина-3, 725', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 285
+{'latitude': '53.356508', 'longitude': '58.943676', 'Yandex_address': 'садовое товарищество Мичурина-3, 747', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 286
+{'latitude': '53.361366', 'longitude': '58.940828', 'Yandex_address': 'садовое товарищество Мичурина-3, 487', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 287
+{'latitude': '53.356658', 'longitude': '58.943478', 'Yandex_address': 'садовое товарищество Мичурина-3, 746', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 288
+{'latitude': '53.356959', 'longitude': '58.941385', 'Yandex_address': 'садовое товарищество Мичурина-3, 782', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 289
+{'latitude': '53.357228', 'longitude': '58.946308', 'Yandex_address': 'садовое товарищество Мичурина-3, 454', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 290
+{'latitude': '53.365326', 'longitude': '58.928998', 'Yandex_address': 'садовое товарищество Мичурина-3, 893', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 291
+{'latitude': '53.361328', 'longitude': '58.941897', 'Yandex_address': 'садовое товарищество Мичурина-3, 407', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 292
+{'latitude': '53.364515', 'longitude': '58.939822', 'Yandex_address': 'садовое товарищество Мичурина-3, 116', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 293
+{'latitude': '53.355987', 'longitude': '58.945446', 'Yandex_address': 'садовое товарищество Мичурина-3, 687', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 294
+{'latitude': '53.363360', 'longitude': '58.933283', 'Yandex_address': 'садовое товарищество Мичурина-3, 858', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 295
+{'latitude': '53.365434', 'longitude': '58.935627', 'Yandex_address': 'садовое товарищество Мичурина-3, 466', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 296
+{'latitude': '53.362054', 'longitude': '58.942903', 'Yandex_address': 'садовое товарищество Мичурина-3, 144', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 297
+{'latitude': '53.362274', 'longitude': '58.934486', 'Yandex_address': 'садовое товарищество Мичурина-3, 846', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 298
+{'latitude': '53.357314', 'longitude': '58.942625', 'Yandex_address': 'садовое товарищество Мичурина-3, 742', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 299
+{'latitude': '53.359442', 'longitude': '58.946245', 'Yandex_address': 'садовое товарищество Мичурина-3, 174', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 300
+{'latitude': '53.365337', 'longitude': '58.931423', 'Yandex_address': 'садовое товарищество Мичурина-3, 868', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 301
+{'latitude': '53.359415', 'longitude': '58.939948', 'Yandex_address': 'садовое товарищество Мичурина-3, 731', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 302
+{'latitude': '53.356632', 'longitude': '58.941781', 'Yandex_address': 'садовое товарищество Мичурина-3, 778', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 303
+{'latitude': '53.362624', 'longitude': '58.933381', 'Yandex_address': 'садовое товарищество Мичурина-3, 851', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 304
+{'latitude': '53.365111', 'longitude': '58.936058', 'Yandex_address': 'садовое товарищество Мичурина-3, 468', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 305
+{'latitude': '53.365649', 'longitude': '58.933660', 'Yandex_address': 'садовое товарищество Мичурина-3, 579', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 306
+{'latitude': '53.360410', 'longitude': '58.939822', 'Yandex_address': 'садовое товарищество Мичурина-3, 637', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 307
+{'latitude': '53.360098', 'longitude': '58.946542', 'Yandex_address': 'садовое товарищество Мичурина-3, 68', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 308
+{'latitude': '53.361484', 'longitude': '58.937621', 'Yandex_address': 'садовое товарищество Мичурина-3, 626', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 309
+{'latitude': '53.363661', 'longitude': '58.934558', 'Yandex_address': 'садовое товарищество Мичурина-3, 707', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 310
+{'latitude': '53.360560', 'longitude': '58.938493', 'Yandex_address': 'садовое товарищество Мичурина-3, 724', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 311
+{'latitude': '53.362221', 'longitude': '58.942697', 'Yandex_address': 'садовое товарищество Мичурина-3, 142', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 312
+{'latitude': '53.364225', 'longitude': '58.938565', 'Yandex_address': 'садовое товарищество Мичурина-3, 309', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 313
+{'latitude': '53.362650', 'longitude': '58.940271', 'Yandex_address': 'садовое товарищество Мичурина-3, 393', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 314
+{'latitude': '53.357540', 'longitude': '58.939804', 'Yandex_address': 'садовое товарищество Мичурина-3, 791', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 315
+{'latitude': '53.356750', 'longitude': '58.943658', 'Yandex_address': 'садовое товарищество Мичурина-3, 678', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 316
+{'latitude': '53.363693', 'longitude': '58.941978', 'Yandex_address': 'садовое товарищество Мичурина-3, 28', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 317
+{'latitude': '53.360324', 'longitude': '58.940226', 'Yandex_address': 'садовое товарищество Мичурина-3, 549', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 318
+{'latitude': '53.358561', 'longitude': '58.948204', 'Yandex_address': 'садовое товарищество Мичурина-3, 183', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 319
+{'latitude': '53.358190', 'longitude': '58.945095', 'Yandex_address': 'садовое товарищество Мичурина-3, 442', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 320
+{'latitude': '53.363397', 'longitude': '58.940999', 'Yandex_address': 'садовое товарищество Мичурина-3, 227', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 321
+{'latitude': '53.358744', 'longitude': '58.946353', 'Yandex_address': 'садовое товарищество Мичурина-3, 276', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 322
+{'latitude': '53.357207', 'longitude': '58.948743', 'Yandex_address': 'садовое товарищество Мичурина-3, 297', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 323
+{'latitude': '53.363886', 'longitude': '58.942329', 'Yandex_address': 'садовое товарищество Мичурина-3, 27', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 324
+{'latitude': '53.364246', 'longitude': '58.940990', 'Yandex_address': 'садовое товарищество Мичурина-3, 119', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 325
+{'latitude': '53.356820', 'longitude': '58.948626', 'Yandex_address': 'садовое товарищество Мичурина-3, 296', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 326
+{'latitude': '53.361769', 'longitude': '58.938520', 'Yandex_address': 'садовое товарищество Мичурина-3, 541', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 327
+{'latitude': '53.361189', 'longitude': '58.940990', 'Yandex_address': 'садовое товарищество Мичурина-3, 488', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 328
+{'latitude': '53.360302', 'longitude': '58.943559', 'Yandex_address': 'садовое товарищество Мичурина-3, 331', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 329
+{'latitude': '53.359818', 'longitude': '58.939741', 'Yandex_address': 'садовое товарищество Мичурина-3, 644', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 330
+{'latitude': '53.356003', 'longitude': '58.942571', 'Yandex_address': 'садовое товарищество Мичурина-3, 770', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 331
+{'latitude': '53.365772', 'longitude': '58.935196', 'Yandex_address': 'садовое товарищество Мичурина-3, 464', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 332
+{'latitude': '53.364907', 'longitude': '58.938295', 'Yandex_address': 'садовое товарищество Мичурина-3, 214', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 333
+{'latitude': '53.359899', 'longitude': '58.937612', 'Yandex_address': 'садовое товарищество Мичурина-3, 818', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 334
+{'latitude': '53.356572', 'longitude': '58.943856', 'Yandex_address': 'садовое товарищество Мичурина-3, 680', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 335
+{'latitude': '53.359249', 'longitude': '58.941278', 'Yandex_address': 'садовое товарищество Мичурина-3, 649', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 336
+{'latitude': '53.357755', 'longitude': '58.947602', 'Yandex_address': 'садовое товарищество Мичурина-3, 286', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 337
+{'latitude': '53.362521', 'longitude': '58.936031', 'Yandex_address': 'садовое товарищество Мичурина-3, 713', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 338
+{'latitude': '53.357443', 'longitude': '58.945778', 'Yandex_address': 'садовое товарищество Мичурина-3, 509', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++240&format=json&limit=1
+YANDEX 339
+{'latitude': '53.362323', 'longitude': '58.941817', 'Yandex_address': 'садовое товарищество Мичурина-3, 240', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 340
+{'latitude': '53.357341', 'longitude': '58.949749', 'Yandex_address': 'садовое товарищество Мичурина-3, 197', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 341
+{'latitude': '53.362221', 'longitude': '58.943847', 'Yandex_address': 'садовое товарищество Мичурина-3, 44', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 342
+{'latitude': '53.356841', 'longitude': '58.947934', 'Yandex_address': 'садовое товарищество Мичурина-3, 351', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 343
+{'latitude': '53.363301', 'longitude': '58.932537', 'Yandex_address': 'садовое товарищество Мичурина-3, 859', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 344
+{'latitude': '53.360845', 'longitude': '58.942535', 'Yandex_address': 'садовое товарищество Мичурина-3, 413', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 345
+{'latitude': '53.356245', 'longitude': '58.944269', 'Yandex_address': 'садовое товарищество Мичурина-3, 684', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 346
+{'latitude': '53.362032', 'longitude': '58.939894', 'Yandex_address': 'садовое товарищество Мичурина-3, 398А', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 347
+{'latitude': '53.359523', 'longitude': '58.941215', 'Yandex_address': 'садовое товарищество Мичурина-3, 553', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 348
+{'latitude': '53.358593', 'longitude': '58.940963', 'Yandex_address': 'садовое товарищество Мичурина-3, 735', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 349
+{'latitude': '53.360807', 'longitude': '58.935663', 'Yandex_address': 'садовое товарищество Мичурина-3, 829', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 350
+{'latitude': '53.362441', 'longitude': '58.936409', 'Yandex_address': 'садовое товарищество Мичурина-3, 614', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 351
+{'latitude': '53.356583', 'longitude': '58.947970', 'Yandex_address': 'садовое товарищество Мичурина-3, 461', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 352
+{'latitude': '53.359518', 'longitude': '58.945832', 'Yandex_address': 'садовое товарищество Мичурина-3, 271', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 353
+{'latitude': '53.361495', 'longitude': '58.942832', 'Yandex_address': 'садовое товарищество Мичурина-3, 248', 'Input_not_found': False} - LOCATION FROM YANDEX
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA+%2C+%D1%81%D0%BD%D0%BE+%D0%B8%D0%BC.+%D0%BC%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0+n3+%2C++5&format=json&limit=1
+YANDEX 354
+{'latitude': '53.356906', 'longitude': '58.944583', 'Yandex_address': 'садовое товарищество Мичурина-3, 568', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 355
+{'latitude': '53.361361', 'longitude': '58.938610', 'Yandex_address': 'садовое товарищество Мичурина-3, 625', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 356
+{'latitude': '53.364622', 'longitude': '58.933938', 'Yandex_address': 'садовое товарищество Мичурина-3, 590', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 357
+{'latitude': '53.357389', 'longitude': '58.939993', 'Yandex_address': 'садовое товарищество Мичурина-3, 789', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 358
+{'latitude': '53.360522', 'longitude': '58.944601', 'Yandex_address': 'садовое товарищество Мичурина-3, 259', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 359
+{'latitude': '53.364660', 'longitude': '58.940756', 'Yandex_address': 'садовое товарищество Мичурина-3, 16', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 360
+{'latitude': '53.360646', 'longitude': '58.939283', 'Yandex_address': 'садовое товарищество Мичурина-3, 633', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 361
+{'latitude': '53.358174', 'longitude': '58.949623', 'Yandex_address': 'садовое товарищество Мичурина-3, 91', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 362
+{'latitude': '53.361361', 'longitude': '58.935789', 'Yandex_address': 'садовое товарищество Мичурина-3, 834', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 363
+{'latitude': '53.359673', 'longitude': '58.946128', 'Yandex_address': 'садовое товарищество Мичурина-3, 172', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 364
+{'latitude': '53.358034', 'longitude': '58.943119', 'Yandex_address': 'садовое товарищество Мичурина-3, 562', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 365
+{'latitude': '53.357277', 'longitude': '58.940936', 'Yandex_address': 'садовое товарищество Мичурина-3, 786', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 366
+{'latitude': '53.360899', 'longitude': '58.938106', 'Yandex_address': 'садовое товарищество Мичурина-3, 722', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 367
+{'latitude': '53.355664', 'longitude': '58.944754', 'Yandex_address': 'садовое товарищество Мичурина-3, 752', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 368
+{'latitude': '53.357040', 'longitude': '58.946569', 'Yandex_address': 'садовое товарищество Мичурина-3, 456', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 369
+{'latitude': '53.362806', 'longitude': '58.941718', 'Yandex_address': 'садовое товарищество Мичурина-3, 233', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 370
+{'latitude': '53.360684', 'longitude': '58.943865', 'Yandex_address': 'садовое товарищество Мичурина-3, 256', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 371
+{'latitude': '53.364848', 'longitude': '58.937774', 'Yandex_address': 'садовое товарищество Мичурина-3, 306', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.885856149999995, 59.21245306609682) - LOCATION FROM NOMI
+NOMI 2
+(53.87984075, 59.24528724153886) - LOCATION FROM NOMI
+NOMI 3
+(53.8909722, 59.22261625) - LOCATION FROM NOMI
+NOMI 4
+(53.8778001, 59.21216121705457) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.881181', 'longitude': '59.212739', 'Yandex_address': 'улица Луначарского, 31', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 5
+(53.86613715, 59.2091283) - LOCATION FROM NOMI
+NOMI 6
+(53.88573365, 59.21144842125126) - LOCATION FROM NOMI
+NOMI 7
+(53.87812605, 59.206454045358456) - LOCATION FROM NOMI
+NOMI 8
+(53.8727629, 59.203112899999994) - LOCATION FROM NOMI
+NOMI 9
+(53.888287500000004, 59.21542615000001) - LOCATION FROM NOMI
+NOMI 10
+(53.895875450000005, 59.224968102254934) - LOCATION FROM NOMI
+NOMI 11
+(53.8838181, 59.21516785400573) - LOCATION FROM NOMI
+NOMI 12
+(53.8814037, 59.2259385) - LOCATION FROM NOMI
+NOMI 13
+(53.8945324, 59.22394484960272) - LOCATION FROM NOMI
+NOMI 14
+(53.89028725, 59.220379856685895) - LOCATION FROM NOMI
+NOMI 15
+(53.8802607, 59.208199394768855) - LOCATION FROM NOMI
+NOMI 16
+(53.8821943, 59.21584323269348) - LOCATION FROM NOMI
+NOMI 17
+(53.877471799999995, 59.22520416940923) - LOCATION FROM NOMI
+NOMI 18
+(53.8714621, 59.20262007648468) - LOCATION FROM NOMI
+NOMI 19
+(53.8801069, 59.22102124999999) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.873776', 'longitude': '59.205023', 'Yandex_address': 'улица Ленина, 10А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 20
+(53.876894, 59.2440225) - LOCATION FROM NOMI
+NOMI 21
+(53.878890999999996, 59.2446128929456) - LOCATION FROM NOMI
+NOMI 22
+(53.86187505, 59.20400974152299) - LOCATION FROM NOMI
+YANDEX 3
+{'latitude': '53.874015', 'longitude': '59.212515', 'Yandex_address': 'улица Энгельса, 35', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 23
+(53.8789509, 59.24550286052968) - LOCATION FROM NOMI
+NOMI 24
+(53.88097155, 59.242856467810256) - LOCATION FROM NOMI
+NOMI 25
+(53.881306699999996, 59.21321944771897) - LOCATION FROM NOMI
+NOMI 26
+(53.888483699999995, 59.21682159806677) - LOCATION FROM NOMI
+NOMI 27
+(53.884814750000004, 59.22479305) - LOCATION FROM NOMI
+NOMI 28
+(53.87450235, 59.213359499999996) - LOCATION FROM NOMI
+NOMI 29
+(53.8803431, 59.21954897634047) - LOCATION FROM NOMI
+NOMI 30
+(53.88624375, 59.21842827709588) - LOCATION FROM NOMI
+NOMI 31
+(53.8854997, 59.22846304789864) - LOCATION FROM NOMI
+NOMI 32
+(53.8786445, 59.210750368935365) - LOCATION FROM NOMI
+YANDEX 4
+{'latitude': '53.875177', 'longitude': '59.201924', 'Yandex_address': 'улица Зауралье, 18', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 33
+(53.8530163, 59.189902700000005) - LOCATION FROM NOMI
+NOMI 34
+(53.88465625, 59.216652541487065) - LOCATION FROM NOMI
+NOMI 35
+(53.8760338, 59.22157245) - LOCATION FROM NOMI
+NOMI 36
+(53.86702745, 59.20715819499959) - LOCATION FROM NOMI
+NOMI 37
+(53.86191195, 59.20766470522321) - LOCATION FROM NOMI
+YANDEX 5
+{'latitude': '53.883341', 'longitude': '59.203792', 'Yandex_address': 'улица Пугачёва, 23А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 38
+(53.8797796, 59.24462735) - LOCATION FROM NOMI
+NOMI 39
+(53.871057300000004, 59.21081679999999) - LOCATION FROM NOMI
+NOMI 40
+(53.878772850000004, 59.22465879999999) - LOCATION FROM NOMI
+NOMI 41
+(53.8802441, 59.23025250228946) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B+%D1%83%D0%BB%2C++5%2F1&format=json&limit=1
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B+%D1%83%D0%BB%2C++5%2F1&format=json&limit=1
+NOMI 42
+(53.86404795, 59.20153330541723) - LOCATION FROM NOMI
+NOMI 43
+(53.859781, 59.20069115) - LOCATION FROM NOMI
+NOMI 44
+(53.86470735, 59.20835320528223) - LOCATION FROM NOMI
+NOMI 45
+(53.86571035, 59.19907819903017) - LOCATION FROM NOMI
+NOMI 46
+(53.87487315, 59.214035442482995) - LOCATION FROM NOMI
+NOMI 47
+(53.88716865, 59.22795455) - LOCATION FROM NOMI
+NOMI 48
+(53.88392705, 59.209346101275514) - LOCATION FROM NOMI
+NOMI 49
+(53.8725565, 59.219892) - LOCATION FROM NOMI
+NOMI 50
+(53.87849325, 59.22699235) - LOCATION FROM NOMI
+NOMI 51
+(53.8843771, 59.21426924366568) - LOCATION FROM NOMI
+NOMI 52
+(53.871598, 59.203752365625895) - LOCATION FROM NOMI
+NOMI 53
+(53.87654175, 59.209079349999996) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D1%8D%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%B0+%D1%83%D0%BB%2C++32%2F%D0%B0&format=json&limit=1
+NOMI 54
+(53.886305199999995, 59.209773386245956) - LOCATION FROM NOMI
+NOMI 55
+(53.86730085, 59.20768551162056) - LOCATION FROM NOMI
+NOMI 56
+(53.87465025, 59.209220349999995) - LOCATION FROM NOMI
+YANDEX 6
+{'latitude': '53.886939', 'longitude': '59.208499', 'Yandex_address': 'улица Пенза, 38', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 57
+(53.861305, 59.206145722653105) - LOCATION FROM NOMI
+NOMI 58
+(53.88587835, 59.20877428733539) - LOCATION FROM NOMI
+NOMI 59
+(53.881550250000004, 59.2180363362868) - LOCATION FROM NOMI
+NOMI 60
+(53.8740374, 59.22251791696995) - LOCATION FROM NOMI
+NOMI 61
+(53.879371, 59.23314445277778) - LOCATION FROM NOMI
+NOMI 62
+(53.878204350000004, 59.20517734999999) - LOCATION FROM NOMI
+NOMI 63
+(53.86739675, 59.207893656474596) - LOCATION FROM NOMI
+NOMI 64
+(53.88884445, 59.217508300000006) - LOCATION FROM NOMI
+NOMI 65
+(53.88448905, 59.21993868974138) - LOCATION FROM NOMI
+NOMI 66
+(53.8646591, 59.20584665000001) - LOCATION FROM NOMI
+YANDEX 7
+{'latitude': '53.887401', 'longitude': '59.210161', 'Yandex_address': 'улица Пенза, 47', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 67
+(53.8621776, 59.20046685) - LOCATION FROM NOMI
+NOMI 68
+(53.8878076, 59.23394022700209) - LOCATION FROM NOMI
+NOMI 69
+(53.85030635, 59.190809796241396) - LOCATION FROM NOMI
+NOMI 70
+(53.8848737, 59.23097474509551) - LOCATION FROM NOMI
+NOMI 71
+(53.8627563, 59.21924745) - LOCATION FROM NOMI
+NOMI 72
+(53.8800114, 59.2162519) - LOCATION FROM NOMI
+NOMI 73
+(53.890547749999996, 59.215266987937895) - LOCATION FROM NOMI
+NOMI 74
+(53.871598899999995, 59.21817675) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BA%D0%B0%D1%80%D0%BB%D0%B0+%D0%BC%D0%B0%D1%80%D0%BA%D1%81%D0%B0+%D1%83%D0%BB%2C++7&format=json&limit=1
+NOMI 75
+(53.86641305, 59.20180980070715) - LOCATION FROM NOMI
+NOMI 76
+(53.877681300000006, 59.226374089946695) - LOCATION FROM NOMI
+NOMI 77
+(53.8776303, 59.24521778031783) - LOCATION FROM NOMI
+NOMI 78
+(53.87779515, 59.21133849658428) - LOCATION FROM NOMI
+YANDEX 8
+{'latitude': '53.858739', 'longitude': '59.202166', 'Yandex_address': 'улица Рокоссовского, 11', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 79
+(53.87639475, 59.207706210337705) - LOCATION FROM NOMI
+YANDEX 9
+{'latitude': '53.873967', 'longitude': '59.209371', 'Yandex_address': 'Советская улица, 18', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 80
+(53.8670929, 59.20270015) - LOCATION FROM NOMI
+NOMI 81
+(53.886064950000005, 59.21742470063529) - LOCATION FROM NOMI
+NOMI 82
+(53.881302149999996, 59.21846461561429) - LOCATION FROM NOMI
+NOMI 83
+(53.86978275, 59.208606494999586) - LOCATION FROM NOMI
+NOMI 84
+(53.859664249999994, 59.202568299999996) - LOCATION FROM NOMI
+NOMI 85
+(53.88219155, 59.21298396251724) - LOCATION FROM NOMI
+NOMI 86
+(53.8750001, 59.21069205) - LOCATION FROM NOMI
+NOMI 87
+(53.859946300000004, 59.20091600000001) - LOCATION FROM NOMI
+NOMI 88
+(53.8816104, 59.20660789535665) - LOCATION FROM NOMI
+NOMI 89
+(53.88066905, 59.21209707422075) - LOCATION FROM NOMI
+NOMI 90
+(53.88562855, 59.22818945251288) - LOCATION FROM NOMI
+NOMI 91
+(53.8650407, 59.203726960993976) - LOCATION FROM NOMI
+NOMI 92
+(53.86716975, 59.20027659499959) - LOCATION FROM NOMI
+NOMI 93
+(53.876954100000006, 59.209839099999996) - LOCATION FROM NOMI
+NOMI 94
+(53.86085165, 59.20355635) - LOCATION FROM NOMI
+NOMI 95
+(53.88399705, 59.207421080983266) - LOCATION FROM NOMI
+NOMI 96
+(53.86962285, 59.20746845000001) - LOCATION FROM NOMI
+NOMI 97
+(53.88147535, 59.243199000000004) - LOCATION FROM NOMI
+YANDEX 10
+{'latitude': '53.874774', 'longitude': '59.203047', 'Yandex_address': 'улица Зауралье, 14', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 98
+(53.86815445, 59.2079361) - LOCATION FROM NOMI
+NOMI 99
+(53.8720181, 59.2163221) - LOCATION FROM NOMI
+NOMI 100
+(53.8736772, 59.219483444523696) - LOCATION FROM NOMI
+NOMI 101
+(53.865572, 59.19894395) - LOCATION FROM NOMI
+NOMI 102
+(53.8846628, 59.21963639100517) - LOCATION FROM NOMI
+NOMI 103
+(53.867682349999995, 59.21112655849157) - LOCATION FROM NOMI
+NOMI 104
+(53.8810455, 59.2144931) - LOCATION FROM NOMI
+NOMI 105
+(53.85792925, 59.20204725872283) - LOCATION FROM NOMI
+NOMI 106
+(53.8757413, 59.21196342779463) - LOCATION FROM NOMI
+NOMI 107
+(53.875509449999996, 59.21076100679149) - LOCATION FROM NOMI
+NOMI 108
+(53.8829362, 59.20799104999999) - LOCATION FROM NOMI
+YANDEX 11
+{'latitude': '53.856966', 'longitude': '59.205930', 'Yandex_address': 'улица Рокоссовского, 27', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 109
+(53.8805871, 59.206283943424296) - LOCATION FROM NOMI
+NOMI 110
+(53.853729900000005, 59.1889088) - LOCATION FROM NOMI
+NOMI 111
+(53.8627999, 59.2027253) - LOCATION FROM NOMI
+NOMI 112
+(53.877770749999996, 59.2438012407375) - LOCATION FROM NOMI
+NOMI 113
+(53.887101200000004, 59.215766845372606) - LOCATION FROM NOMI
+NOMI 114
+(53.8847972, 59.220528137650604) - LOCATION FROM NOMI
+NOMI 115
+(53.8775992, 59.224375301884066) - LOCATION FROM NOMI
+YANDEX 12
+{'latitude': '53.858288', 'longitude': '59.203181', 'Yandex_address': 'улица Рокоссовского, 19', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 116
+(53.8848618, 59.20478715) - LOCATION FROM NOMI
+NOMI 117
+(53.864389200000005, 59.200137600000005) - LOCATION FROM NOMI
+NOMI 118
+(53.883228700000004, 59.224555041573566) - LOCATION FROM NOMI
+NOMI 119
+(53.8857057, 59.2150514) - LOCATION FROM NOMI
+NOMI 120
+(53.85284075, 59.20670017697721) - LOCATION FROM NOMI
+NOMI 121
+(53.8731683, 59.21374435017094) - LOCATION FROM NOMI
+YANDEX 13
+{'latitude': '53.887735', 'longitude': '59.214931', 'Yandex_address': 'улица Пенза, 74', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 122
+(53.860939450000004, 59.204237257203566) - LOCATION FROM NOMI
+NOMI 123
+(53.879607750000005, 59.23102405) - LOCATION FROM NOMI
+NOMI 124
+(53.878895400000005, 59.20523435) - LOCATION FROM NOMI
+NOMI 125
+(53.86923025, 59.209928500000004) - LOCATION FROM NOMI
+NOMI 126
+(53.863592999999995, 59.204147449999994) - LOCATION FROM NOMI
+NOMI 127
+(53.8862448, 59.21716089689076) - LOCATION FROM NOMI
+NOMI 128
+(53.8811947, 59.21112360358712) - LOCATION FROM NOMI
+NOMI 129
+(53.8703507, 59.20802043414096) - LOCATION FROM NOMI
+NOMI 130
+(53.883382049999994, 59.21435325) - LOCATION FROM NOMI
+NOMI 131
+(53.863564999999994, 59.20219085682196) - LOCATION FROM NOMI
+NOMI 132
+(53.86645875, 59.202964868196815) - LOCATION FROM NOMI
+NOMI 133
+(53.87351795, 59.215089500000005) - LOCATION FROM NOMI
+NOMI 134
+(53.88213385, 59.215493398945576) - LOCATION FROM NOMI
+NOMI 135
+(53.86917655, 59.21090479499959) - LOCATION FROM NOMI
+NOMI 136
+(53.88978295, 59.21501309999999) - LOCATION FROM NOMI
+NOMI 137
+(53.8859036, 59.23049215281617) - LOCATION FROM NOMI
+NOMI 138
+(53.8706362, 59.20832369217172) - LOCATION FROM NOMI
+NOMI 139
+(53.8777202, 59.221973399999996) - LOCATION FROM NOMI
+NOMI 140
+(53.884676400000004, 59.204403697468365) - LOCATION FROM NOMI
+NOMI 141
+(53.8617305, 59.20384975) - LOCATION FROM NOMI
+NOMI 142
+(53.860602650000004, 59.20741035339863) - LOCATION FROM NOMI
+YANDEX 14
+{'latitude': '53.858230', 'longitude': '59.202427', 'Yandex_address': 'улица Рокоссовского, 10', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 143
+(53.87722375, 59.213893304478944) - LOCATION FROM NOMI
+NOMI 144
+(53.8788341, 59.20705795) - LOCATION FROM NOMI
+NOMI 145
+(53.879952, 59.221331000000006) - LOCATION FROM NOMI
+NOMI 146
+(53.8817117, 59.20782882129142) - LOCATION FROM NOMI
+NOMI 147
+(53.88748425, 59.22557421887727) - LOCATION FROM NOMI
+NOMI 148
+(53.8675013, 59.2091028599322) - LOCATION FROM NOMI
+NOMI 149
+(53.89434785, 59.226617652334824) - LOCATION FROM NOMI
+NOMI 150
+(53.8521959, 59.19148744197415) - LOCATION FROM NOMI
+NOMI 151
+(53.874719150000004, 59.22089915000001) - LOCATION FROM NOMI
+NOMI 152
+(53.8789071, 59.20900395933735) - LOCATION FROM NOMI
+NOMI 153
+(53.861470249999996, 59.20633614620296) - LOCATION FROM NOMI
+NOMI 154
+(53.86989765, 59.205093415347704) - LOCATION FROM NOMI
+YANDEX 15
+{'latitude': '53.873834', 'longitude': '59.200594', 'Yandex_address': 'улица Зауралье, 6', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 155
+(53.874127349999995, 59.20563150000001) - LOCATION FROM NOMI
+NOMI 156
+(53.8845556, 59.21291071) - LOCATION FROM NOMI
+NOMI 157
+(53.878226, 59.2038845) - LOCATION FROM NOMI
+NOMI 158
+(53.87915905, 59.245610389817514) - LOCATION FROM NOMI
+NOMI 159
+(53.87636525, 59.212285449999996) - LOCATION FROM NOMI
+NOMI 160
+(53.8820848, 59.219120854326235) - LOCATION FROM NOMI
+NOMI 161
+(53.8518763, 59.1911547990171) - LOCATION FROM NOMI
+NOMI 162
+(53.86782485, 59.2015746) - LOCATION FROM NOMI
+NOMI 163
+(53.88873935, 59.21451665) - LOCATION FROM NOMI
+NOMI 164
+(53.877326499999995, 59.2184467) - LOCATION FROM NOMI
+NOMI 165
+(53.8768265, 59.224696050000006) - LOCATION FROM NOMI
+NOMI 166
+(53.86955185, 59.204478594999586) - LOCATION FROM NOMI
+NOMI 167
+(53.879737500000005, 59.20965054999999) - LOCATION FROM NOMI
+NOMI 168
+(53.86043735, 59.20518145) - LOCATION FROM NOMI
+NOMI 169
+(53.8618151, 59.204744250000005) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++193&format=json&limit=1
+NOMI 170
+(53.880839449999996, 59.2303456269384) - LOCATION FROM NOMI
+NOMI 171
+(53.86980275, 59.2120582) - LOCATION FROM NOMI
+NOMI 172
+(53.8939124, 59.22446652437145) - LOCATION FROM NOMI
+NOMI 173
+(53.8783097, 59.207202349999996) - LOCATION FROM NOMI
+NOMI 174
+(53.88164275, 59.215614050000006) - LOCATION FROM NOMI
+NOMI 175
+(53.87499565, 59.217793) - LOCATION FROM NOMI
+NOMI 176
+(53.88961415, 59.21691399689814) - LOCATION FROM NOMI
+NOMI 177
+(53.885616999999996, 59.21241867234909) - LOCATION FROM NOMI
+NOMI 178
+(53.88435815, 59.23711745871849) - LOCATION FROM NOMI
+NOMI 179
+(53.8815709, 59.2425808) - LOCATION FROM NOMI
+NOMI 180
+(53.879566999999994, 59.2427981) - LOCATION FROM NOMI
+NOMI 181
+(53.883351700000006, 59.21591625258621) - LOCATION FROM NOMI
+YANDEX 16
+{'latitude': '53.887215', 'longitude': '59.210646', 'Yandex_address': 'улица Пенза, 56', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 182
+(53.875085, 59.2264641) - LOCATION FROM NOMI
+NOMI 183
+(53.86603595, 59.20889494272063) - LOCATION FROM NOMI
+NOMI 184
+(53.87691635, 59.21939965) - LOCATION FROM NOMI
+NOMI 185
+(53.85172685, 59.203853735077175) - LOCATION FROM NOMI
+NOMI 186
+(53.88476145, 59.209663413615516) - LOCATION FROM NOMI
+NOMI 187
+(53.885252449999996, 59.20466465) - LOCATION FROM NOMI
+NOMI 188
+(53.8837823, 59.22108085) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D1%82%D1%80%D1%83%D0%B4%D0%B0+%D1%83%D0%BB%2C++46&format=json&limit=1
+NOMI 189
+(53.88593505, 59.21624070977644) - LOCATION FROM NOMI
+NOMI 190
+(53.8797247, 59.20698015000001) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BA%D0%B0%D1%80%D0%BB%D0%B0+%D0%BB%D0%B8%D0%B1%D0%BA%D0%BD%D0%B5%D1%85%D1%82%D0%B0+%D1%83%D0%BB%2C++2%2F%D0%B0&format=json&limit=1
+NOMI 191
+(53.8661058, 59.21999520000001) - LOCATION FROM NOMI
+NOMI 192
+(53.86414335, 59.207056664973386) - LOCATION FROM NOMI
+NOMI 193
+(53.878445150000005, 59.22973534999999) - LOCATION FROM NOMI
+NOMI 194
+(53.8609396, 59.207046899999995) - LOCATION FROM NOMI
+YANDEX 17
+{'latitude': '53.879137', 'longitude': '59.202579', 'Yandex_address': 'Набережная улица, 14', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 195
+(53.885234100000005, 59.21771944999999) - LOCATION FROM NOMI
+NOMI 196
+(53.875773699999996, 59.21846105730933) - LOCATION FROM NOMI
+NOMI 197
+(53.8731394, 59.2108614) - LOCATION FROM NOMI
+NOMI 198
+(53.8674824, 59.204441450000004) - LOCATION FROM NOMI
+NOMI 199
+(53.881838099999996, 59.229160600958636) - LOCATION FROM NOMI
+NOMI 200
+(53.878201399999995, 59.20862634661145) - LOCATION FROM NOMI
+NOMI 201
+(53.877561400000005, 59.211783499999996) - LOCATION FROM NOMI
+YANDEX 18
+{'latitude': '53.885538', 'longitude': '59.238323', 'Yandex_address': 'Луговая улица, 7А', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 202
+(53.8780116, 59.211731246266666) - LOCATION FROM NOMI
+NOMI 203
+(53.8814097, 59.21301215) - LOCATION FROM NOMI
+NOMI 204
+(53.87286555, 59.21316245676843) - LOCATION FROM NOMI
+NOMI 205
+(53.876071749999994, 59.219782050000006) - LOCATION FROM NOMI
+NOMI 206
+(53.8783191, 59.22312023096966) - LOCATION FROM NOMI
+NOMI 207
+(53.88623255, 59.22772536324451) - LOCATION FROM NOMI
+NOMI 208
+(53.860767949999996, 59.207532391256464) - LOCATION FROM NOMI
+NOMI 209
+(53.88250775, 59.21353919999999) - LOCATION FROM NOMI
+NOMI 210
+(53.85033875, 59.1965996962414) - LOCATION FROM NOMI
+NOMI 211
+(53.8850233, 59.20649224671216) - LOCATION FROM NOMI
+NOMI 212
+(53.883466600000006, 59.208109099999994) - LOCATION FROM NOMI
+NOMI 213
+(53.86696345, 59.19945655) - LOCATION FROM NOMI
+NOMI 214
+(53.87672715, 59.2093415668334) - LOCATION FROM NOMI
+NOMI 215
+(53.88674265, 59.2204621862093) - LOCATION FROM NOMI
+NOMI 216
+(53.8831304, 59.21627925) - LOCATION FROM NOMI
+NOMI 217
+(53.8719783, 59.21521964901257) - LOCATION FROM NOMI
+NOMI 218
+(53.8816836, 59.223661449999994) - LOCATION FROM NOMI
+NOMI 219
+(53.88348085, 59.218880150000004) - LOCATION FROM NOMI
+NOMI 220
+(53.883001050000004, 59.21808418699869) - LOCATION FROM NOMI
+NOMI 221
+(53.878606399999995, 59.24438194999999) - LOCATION FROM NOMI
+NOMI 222
+(53.88378125, 59.21229064999999) - LOCATION FROM NOMI
+NOMI 223
+(53.86855935, 59.20737552677785) - LOCATION FROM NOMI
+NOMI 224
+(53.8860498, 59.22156508223708) - LOCATION FROM NOMI
+NOMI 225
+(53.8753057, 59.20610905792948) - LOCATION FROM NOMI
+NOMI 226
+(53.863151450000004, 59.20313620693911) - LOCATION FROM NOMI
+NOMI 227
+(53.866169549999995, 59.208362501097085) - LOCATION FROM NOMI
+NOMI 228
+(53.880810499999995, 59.21986253782609) - LOCATION FROM NOMI
+NOMI 229
+(53.86945525, 59.211439049999996) - LOCATION FROM NOMI
+NOMI 230
+(53.8811501, 59.2217696) - LOCATION FROM NOMI
+YANDEX 19
+{'latitude': '53.878553', 'longitude': '59.223537', 'Yandex_address': 'улица Карла Маркса, 169', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 231
+(53.868141800000004, 59.20478985) - LOCATION FROM NOMI
+YANDEX 20
+{'latitude': '53.885549', 'longitude': '59.208652', 'Yandex_address': 'Нагорная улица, 9', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 232
+(53.85027335, 59.1873445962414) - LOCATION FROM NOMI
+NOMI 233
+(53.85983565, 59.21172184189818) - LOCATION FROM NOMI
+NOMI 234
+(53.88556245, 59.2082165) - LOCATION FROM NOMI
+NOMI 235
+(53.877280850000005, 59.22826439119952) - LOCATION FROM NOMI
+NOMI 236
+(53.888898499999996, 59.21595724999999) - LOCATION FROM NOMI
+NOMI 237
+(53.89121425, 59.22162473159341) - LOCATION FROM NOMI
+NOMI 238
+(53.880233700000005, 59.2296716988412) - LOCATION FROM NOMI
+NOMI 239
+(53.87893795, 59.222897950000004) - LOCATION FROM NOMI
+NOMI 240
+(53.85776915, 59.20147971425383) - LOCATION FROM NOMI
+NOMI 241
+(53.87895575, 59.22145404033412) - LOCATION FROM NOMI
+NOMI 242
+(53.8622994, 59.200171299999994) - LOCATION FROM NOMI
+NOMI 243
+(53.86368335, 59.199495194999585) - LOCATION FROM NOMI
+NOMI 244
+(53.868897000000004, 59.20972239999999) - LOCATION FROM NOMI
+NOMI 245
+(53.89011725, 59.2139381369609) - LOCATION FROM NOMI
+NOMI 246
+(53.857270400000004, 59.20328380000001) - LOCATION FROM NOMI
+NOMI 247
+(53.87020645, 59.21199026482223) - LOCATION FROM NOMI
+YANDEX 21
+{'latitude': '53.876690', 'longitude': '59.219746', 'Yandex_address': 'улица Карла Маркса, 139', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 248
+(53.870744200000004, 59.21018911138217) - LOCATION FROM NOMI
+NOMI 249
+(53.8771197, 59.2191282) - LOCATION FROM NOMI
+NOMI 250
+(53.88477285, 59.20690313595223) - LOCATION FROM NOMI
+NOMI 251
+(53.8783152, 59.208864896205526) - LOCATION FROM NOMI
+NOMI 252
+(53.884457850000004, 59.20909213918803) - LOCATION FROM NOMI
+NOMI 253
+(53.8889932, 59.21780837776152) - LOCATION FROM NOMI
+NOMI 254
+(53.8810184, 59.24379185) - LOCATION FROM NOMI
+NOMI 255
+(53.86883475, 59.203279123871624) - LOCATION FROM NOMI
+NOMI 256
+(53.87386285, 59.2133239) - LOCATION FROM NOMI
+NOMI 257
+(53.866701649999996, 59.203323768196825) - LOCATION FROM NOMI
+NOMI 258
+(53.87279735, 59.21751471251193) - LOCATION FROM NOMI
+NOMI 259
+(53.8883028, 59.219023899999996) - LOCATION FROM NOMI
+NOMI 260
+(53.850410350000004, 59.19365759624141) - LOCATION FROM NOMI
+NOMI 261
+(53.882451149999994, 59.22818875) - LOCATION FROM NOMI
+NOMI 262
+(53.879015949999996, 59.24409356077878) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BA%D0%B0%D1%80%D0%BF%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D1%83%D0%BB%2C++16&format=json&limit=1
+NOMI 263
+(53.88055755, 59.24348605) - LOCATION FROM NOMI
+NOMI 264
+(53.8828959, 59.21428350635048) - LOCATION FROM NOMI
+NOMI 265
+(53.8792035, 59.2254567402243) - LOCATION FROM NOMI
+NOMI 266
+(53.877459400000006, 59.20543845495237) - LOCATION FROM NOMI
+NOMI 267
+(53.88240735, 59.21967205) - LOCATION FROM NOMI
+NOMI 268
+(53.89183295, 59.2150182) - LOCATION FROM NOMI
+YANDEX 22
+{'latitude': '53.858946', 'longitude': '59.201061', 'Yandex_address': 'улица Рокоссовского, 4', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 269
+(53.8832453, 59.214877641422845) - LOCATION FROM NOMI
+NOMI 270
+(53.84995925, 59.1892779962414) - LOCATION FROM NOMI
+NOMI 271
+(53.88466185, 59.21024546944422) - LOCATION FROM NOMI
+NOMI 272
+(53.869889549999996, 59.2150745860672) - LOCATION FROM NOMI
+NOMI 273
+(53.87458595, 59.219826850000004) - LOCATION FROM NOMI
+NOMI 274
+(53.8741505, 59.2155253946426) - LOCATION FROM NOMI
+NOMI 275
+(53.873434950000004, 59.219879950000006) - LOCATION FROM NOMI
+NOMI 276
+(53.880302, 59.20534269229958) - LOCATION FROM NOMI
+NOMI 277
+(53.871186949999995, 59.216946964970845) - LOCATION FROM NOMI
+NOMI 278
+(53.87358395, 59.21309769275551) - LOCATION FROM NOMI
+NOMI 279
+(53.85081325, 59.1908003962414) - LOCATION FROM NOMI
+NOMI 280
+(53.887096299999996, 59.21385395000001) - LOCATION FROM NOMI
+YANDEX 23
+{'latitude': '53.885358', 'longitude': '59.212111', 'Yandex_address': 'Партизанская улица, 49', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 281
+(53.88454405, 59.209212799999996) - LOCATION FROM NOMI
+NOMI 282
+(53.87385635, 59.222224200000014) - LOCATION FROM NOMI
+NOMI 283
+(53.8828105, 59.2204459) - LOCATION FROM NOMI
+NOMI 284
+(53.88624905, 59.209490409364946) - LOCATION FROM NOMI
+NOMI 285
+(53.87884055, 59.22303133256104) - LOCATION FROM NOMI
+NOMI 286
+(53.8721058, 59.21541944587591) - LOCATION FROM NOMI
+NOMI 287
+(53.884774300000004, 59.2168837) - LOCATION FROM NOMI
+NOMI 288
+(53.865582, 59.206070600000004) - LOCATION FROM NOMI
+NOMI 289
+(53.87838875, 59.2426999) - LOCATION FROM NOMI
+NOMI 290
+(53.87527165, 59.21156779009331) - LOCATION FROM NOMI
+NOMI 291
+(53.8647536, 59.19873265) - LOCATION FROM NOMI
+NOMI 292
+(53.8818123, 59.2175761) - LOCATION FROM NOMI
+NOMI 293
+(53.88788625, 59.2165437) - LOCATION FROM NOMI
+NOMI 294
+(53.864300799999995, 59.20594854351086) - LOCATION FROM NOMI
+NOMI 295
+(53.882536200000004, 59.21725004999999) - LOCATION FROM NOMI
+NOMI 296
+(53.874409, 59.216768583415714) - LOCATION FROM NOMI
+NOMI 297
+(53.850317700000005, 59.197790199335984) - LOCATION FROM NOMI
+NOMI 298
+(53.869686200000004, 59.2142111) - LOCATION FROM NOMI
+NOMI 299
+(53.88436515, 59.2275742) - LOCATION FROM NOMI
+NOMI 300
+(53.885368650000004, 59.2258274391129) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BF%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0+%D1%83%D0%BB%2C++61&format=json&limit=1
+NOMI 301
+(53.890539700000005, 59.21301665188679) - LOCATION FROM NOMI
+NOMI 302
+(53.8771624, 59.21020793998862) - LOCATION FROM NOMI
+NOMI 303
+(53.887083000000004, 59.23264354999999) - LOCATION FROM NOMI
+NOMI 304
+(53.86857355, 59.2109844) - LOCATION FROM NOMI
+YANDEX 24
+{'latitude': '53.875252', 'longitude': '59.201618', 'Yandex_address': 'улица Зауралье, 24', 'Input_not_found': False} - LOCATION FROM YANDEX
+YANDEX 25
+{'latitude': '53.859318', 'longitude': '59.204556', 'Yandex_address': 'улица Маяковского, 22', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 305
+(53.869114249999996, 59.20565760000001) - LOCATION FROM NOMI
+NOMI 306
+(53.87696235, 59.22138755) - LOCATION FROM NOMI
+NOMI 307
+(53.894446599999995, 59.226049) - LOCATION FROM NOMI
+NOMI 308
+(53.8811618, 59.24235215) - LOCATION FROM NOMI
+NOMI 309
+(53.86436575, 59.20814080196676) - LOCATION FROM NOMI
+NOMI 310
+(53.86029995, 59.206595113024534) - LOCATION FROM NOMI
+YANDEX 26
+{'latitude': '53.856222', 'longitude': '59.206065', 'Yandex_address': 'улица Рокоссовского, 26', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 311
+(53.880490800000004, 59.20644174207051) - LOCATION FROM NOMI
+NOMI 312
+(53.8790123, 59.2279208) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BB%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0+%D1%83%D0%BB%2C++3%2F%D0%B0&format=json&limit=1
+NOMI 313
+(53.87497875, 59.20620284380303) - LOCATION FROM NOMI
+NOMI 314
+(53.858721849999995, 59.19966595000001) - LOCATION FROM NOMI
+NOMI 315
+(53.86342075, 59.199591794999584) - LOCATION FROM NOMI
+NOMI 316
+(53.87610235, 59.2076895) - LOCATION FROM NOMI
+NOMI 317
+(53.86986905, 59.208891094999586) - LOCATION FROM NOMI
+NOMI 318
+(53.8691105, 59.21367600000001) - LOCATION FROM NOMI
+NOMI 319
+(53.875970949999996, 59.208867250000004) - LOCATION FROM NOMI
+NOMI 320
+(53.86768995, 59.217417668769336) - LOCATION FROM NOMI
+NOMI 321
+(53.8862782, 59.219626899999994) - LOCATION FROM NOMI
+NOMI 322
+(53.883507699999996, 59.21458931233296) - LOCATION FROM NOMI
+NOMI 323
+(53.89588965, 59.22443032763836) - LOCATION FROM NOMI
+NOMI 324
+(53.886248949999995, 59.216034221739335) - LOCATION FROM NOMI
+NOMI 325
+(53.881111700000005, 59.22092469565219) - LOCATION FROM NOMI
+NOMI 326
+(53.879397, 59.24434705) - LOCATION FROM NOMI
+NOMI 327
+(53.873440450000004, 59.22147586036585) - LOCATION FROM NOMI
+NOMI 328
+(53.86404935, 59.2077671) - LOCATION FROM NOMI
+NOMI 329
+(53.8758622, 59.219397167790056) - LOCATION FROM NOMI
+NOMI 330
+(53.8687317, 59.209354950000005) - LOCATION FROM NOMI
+NOMI 331
+(53.87331555, 59.214810567515116) - LOCATION FROM NOMI
+NOMI 332
+(53.8850159, 59.21244930892144) - LOCATION FROM NOMI
+NOMI 333
+(53.868754249999995, 59.20309) - LOCATION FROM NOMI
+NOMI 334
+(53.88643245, 59.23035265000001) - LOCATION FROM NOMI
+NOMI 335
+(53.8778359, 59.2273153) - LOCATION FROM NOMI
+NOMI 336
+(53.88461735, 59.22099367570567) - LOCATION FROM NOMI
+NOMI 337
+(53.869766, 59.20902370590139) - LOCATION FROM NOMI
+NOMI 338
+(53.87970215, 59.22553271125557) - LOCATION FROM NOMI
+NOMI 339
+(53.8493658, 59.19391060251928) - LOCATION FROM NOMI
+NOMI 340
+(53.8765115, 59.212554350000005) - LOCATION FROM NOMI
+NOMI 341
+(53.8669311, 59.20492324999999) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB%2C++157&format=json&limit=1
+NOMI 342
+(53.877176500000004, 59.224635899999996) - LOCATION FROM NOMI
+NOMI 343
+(53.882723549999994, 59.220260811529684) - LOCATION FROM NOMI
+NOMI 344
+(53.88424285, 59.2123255) - LOCATION FROM NOMI
+NOMI 345
+(53.8864195, 59.21267590000001) - LOCATION FROM NOMI
+NOMI 346
+(53.8847211, 59.2176832099064) - LOCATION FROM NOMI
+NOMI 347
+(53.8713404, 59.21737478481059) - LOCATION FROM NOMI
+YANDEX 27
+{'latitude': '53.887671', 'longitude': '59.211302', 'Yandex_address': 'улица Пенза, 62', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 348
+(53.8750835, 59.210002895649126) - LOCATION FROM NOMI
+NOMI 349
+(53.8701718, 59.20832291105468) - LOCATION FROM NOMI
+NOMI 350
+(53.874093349999995, 59.2081393) - LOCATION FROM NOMI
+NOMI 351
+(53.873078050000004, 59.21352980260511) - LOCATION FROM NOMI
+NOMI 352
+(53.8770919, 59.22591475) - LOCATION FROM NOMI
+NOMI 353
+(53.88470685, 59.20391720000001) - LOCATION FROM NOMI
+YANDEX 28
+{'latitude': '53.889592', 'longitude': '59.215228', 'Yandex_address': 'улица Пушкина, 80', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 354
+(53.8871786, 59.218408785413004) - LOCATION FROM NOMI
+YANDEX 29
+{'latitude': '53.881881', 'longitude': '59.225487', 'Yandex_address': 'Советская улица, 110', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 355
+(53.862417, 59.20256359237638) - LOCATION FROM NOMI
+NOMI 356
+(53.8815373, 59.211774) - LOCATION FROM NOMI
+YANDEX 30
+{'latitude': '53.883808', 'longitude': '59.204691', 'Yandex_address': 'улица Пугачёва, 48', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 357
+(53.8869399, 59.2173013) - LOCATION FROM NOMI
+NOMI 358
+(53.86603115, 59.2081225) - LOCATION FROM NOMI
+NOMI 359
+(53.8886166, 59.217779724804686) - LOCATION FROM NOMI
+NOMI 360
+(53.8760171, 59.2232185) - LOCATION FROM NOMI
+NOMI 361
+(53.87532895, 59.227549) - LOCATION FROM NOMI
+NOMI 362
+(53.8675108, 59.21075525) - LOCATION FROM NOMI
+NOMI 363
+(53.87428105, 59.2192828) - LOCATION FROM NOMI
+NOMI 364
+(53.884630200000004, 59.23861785) - LOCATION FROM NOMI
+NOMI 365
+(53.877753, 59.21567348136176) - LOCATION FROM NOMI
+NOMI 366
+(53.879533550000005, 59.21178760000001) - LOCATION FROM NOMI
+NOMI 367
+(53.88430375, 59.207696029833386) - LOCATION FROM NOMI
+NOMI 368
+(53.88127005, 59.224369100000004) - LOCATION FROM NOMI
+NOMI 369
+(53.8669563, 59.199921450000005) - LOCATION FROM NOMI
+NOMI 370
+(53.8631767, 59.207263) - LOCATION FROM NOMI
+NOMI 371
+(53.8788689, 59.22236235) - LOCATION FROM NOMI
+NOMI 372
+(53.8577782, 59.20233561599194) - LOCATION FROM NOMI
+NOMI 373
+(53.8756369, 59.222566750000006) - LOCATION FROM NOMI
+NOMI 374
+(53.87274465, 59.21298668564324) - LOCATION FROM NOMI
+NOMI 375
+(53.88478055, 59.2237695) - LOCATION FROM NOMI
+NOMI 376
+(53.88609255, 59.208272948909986) - LOCATION FROM NOMI
+NOMI 377
+(53.878025199999996, 59.2225508362428) - LOCATION FROM NOMI
+NOMI 378
+(53.8774436, 59.2124691) - LOCATION FROM NOMI
+NOMI 379
+(53.8826888, 59.220977000000005) - LOCATION FROM NOMI
+NOMI 380
+(53.868383800000004, 59.20884533711833) - LOCATION FROM NOMI
+NOMI 381
+(53.8829523, 59.21076642637482) - LOCATION FROM NOMI
+NOMI 382
+(53.86879895, 59.2095119) - LOCATION FROM NOMI
+NOMI 383
+(53.85018515, 59.1922947962414) - LOCATION FROM NOMI
+NOMI 384
+(53.86961425, 59.21171665) - LOCATION FROM NOMI
+NOMI 385
+(53.8685048, 59.21606115304847) - LOCATION FROM NOMI
+NOMI 386
+(53.871262900000005, 59.210242755459774) - LOCATION FROM NOMI
+NOMI 387
+(53.87528235, 59.225987240981894) - LOCATION FROM NOMI
+NOMI 388
+(53.874290099999996, 59.22301470000001) - LOCATION FROM NOMI
+NOMI 389
+(53.87668155, 59.227168000000006) - LOCATION FROM NOMI
+NOMI 390
+(53.8685823, 59.20284926481264) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%B5%D1%80%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0+%D1%83%D0%BB%2C++1%2F%D0%B2&format=json&limit=1
+NOMI 391
+(53.8654619, 59.21417055944311) - LOCATION FROM NOMI
+NOMI 392
+(53.8910671, 59.22221930954511) - LOCATION FROM NOMI
+NOMI 393
+(53.8750531, 59.20713374897376) - LOCATION FROM NOMI
+NOMI 394
+(53.87262285, 59.2040595540884) - LOCATION FROM NOMI
+NOMI 395
+(53.8786428, 59.21155500969325) - LOCATION FROM NOMI
+NOMI 396
+(53.87399225, 59.21312295) - LOCATION FROM NOMI
+NOMI 397
+(53.870556750000006, 59.20983775232825) - LOCATION FROM NOMI
+NOMI 398
+(53.87820485, 59.220077593863984) - LOCATION FROM NOMI
+NOMI 399
+(53.89373535, 59.22382144909379) - LOCATION FROM NOMI
+NOMI 400
+(53.8776397, 59.21314953373321) - LOCATION FROM NOMI
+NOMI 401
+(53.868404350000006, 59.20752569999999) - LOCATION FROM NOMI
+NOMI 402
+(53.8790199, 59.24155623346775) - LOCATION FROM NOMI
+NOMI 403
+(53.880213999999995, 59.2308584) - LOCATION FROM NOMI
+NOMI 404
+(53.86283345, 59.20673780083794) - LOCATION FROM NOMI
+NOMI 405
+(53.8672466, 59.208711238987945) - LOCATION FROM NOMI
+NOMI 406
+(53.8752194, 59.221850599999996) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BF%D0%B5%D0%BD%D0%B7%D0%B0+%D1%83%D0%BB%2C++3&format=json&limit=1
+YANDEX 31
+{'latitude': '53.886026', 'longitude': '59.205229', 'Yandex_address': 'улица Пенза, 3', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 407
+(53.887222449999996, 59.23083750000001) - LOCATION FROM NOMI
+NOMI 408
+(53.87903705, 59.22270610272491) - LOCATION FROM NOMI
+NOMI 409
+(53.86240815, 59.20137630000001) - LOCATION FROM NOMI
+NOMI 410
+(53.8753575, 59.2212692) - LOCATION FROM NOMI
+NOMI 411
+(53.873251499999995, 59.21946156269465) - LOCATION FROM NOMI
+NOMI 412
+(53.87076555, 59.21303094999999) - LOCATION FROM NOMI
+NOMI 413
+(53.87735, 59.208124613136434) - LOCATION FROM NOMI
+NOMI 414
+(53.87933495, 59.20837272654731) - LOCATION FROM NOMI
+YANDEX 1
+{'latitude': '53.887762', 'longitude': '59.213853', 'Yandex_address': 'улица Пенза, 69', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 1
+(53.881020199999995, 59.213700349999996) - LOCATION FROM NOMI
+NOMI 2
+(53.8745205, 59.20839036191455) - LOCATION FROM NOMI
+NOMI 3
+(53.8766299, 59.212751850000004) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BF%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F+%D1%83%D0%BB%2C++7&format=json&limit=1
+NOMI 4
+(53.88634155, 59.231358452160904) - LOCATION FROM NOMI
+NOMI 5
+(53.8742165, 59.21792810489856) - LOCATION FROM NOMI
+YANDEX 2
+{'latitude': '53.887480', 'longitude': '59.213153', 'Yandex_address': 'улица Пенза, 67', 'Input_not_found': False} - LOCATION FROM YANDEX
+NOMI 6
+(53.8861557, 59.216613485841975) - LOCATION FROM NOMI
+NOMI 7
+(53.8643766, 59.20887965513428) - LOCATION FROM NOMI
+NOMI 8
+(53.86400505, 59.20946589009762) - LOCATION FROM NOMI
+NOMI 9
+(53.8818496, 59.20617874771898) - LOCATION FROM NOMI
+NOMI 10
+(53.88410985, 59.2034833993073) - LOCATION FROM NOMI
+NOMI 11
+(53.879349399999995, 59.227385688502665) - LOCATION FROM NOMI
+NOMI 12
+(53.8768429, 59.227473792076225) - LOCATION FROM NOMI
+NOMI 13
+(53.876660099999995, 59.22362055000001) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D1%80%D0%B2%D1%81+%D1%83%D0%BB%2C++30&format=json&limit=1
+NOMI 14
+(53.86921255, 59.20620755) - LOCATION FROM NOMI
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=%D1%87%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%2C+%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA+%2C+%D0%BB%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0+%D1%83%D0%BB%2C++104%2F%D0%B0&format=json&limit=1
