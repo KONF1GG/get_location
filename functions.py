@@ -3,6 +3,8 @@ import requests
 from data import BD_AUTHORIZATION
 from DataBase import Session, Address, AddedAddresses
 from geopy.geocoders import Nominatim
+import json
+from bs4 import BeautifulSoup
 
 # Функция для получения координат по адресу с сайта OpenStreetMap
 def get_location(address):
@@ -158,4 +160,30 @@ def post_address_in_bd(house_id, address, location):
 
     finally:
         session.close()
+
+
+def get_settlements():
+    settles_url = 'https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@searchType:{settlement}%27%20Limit%200%202000&pretty=1'
+    settlement_name = []
+    response_settle = requests.get(settles_url)
+    if response_settle.status_code == 200:
+        try:
+            soup_settle = BeautifulSoup(response_settle.text, 'html.parser')
+            pre_tag_settle = soup_settle.find('pre')
+            if pre_tag_settle:
+                json_text_settle = pre_tag_settle.text
+                data_settle = json.loads(json_text_settle)
+
+                if not data_settle:
+                    print("No data returned from the server (settle).")
+                else:
+                    for (key, value) in data_settle.items():
+                        if value.get('addressShort').split()[0].lower() not in settlement_name:
+                            settlement_name.append(value.get('addressShort').split()[0].lower())
+        except Exception as e:
+            print(e)
+        return settlement_name
+
+
+
 

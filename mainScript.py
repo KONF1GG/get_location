@@ -10,12 +10,13 @@ from tqdm import tqdm
 parser = YandexMapParser()
 YandexMap_broken = False
 time.sleep(5)
-cities = ['верхнеуральск', 'темрюк', 'адыгейск', 'озерск', 'горячий', 'сибай']
 
-for city in cities:
-    for limit_start in tqdm(['0', '10000', '20000', '30000', '40000', '50000', '60000', '70000', '80000', '90000']):
+setl_list = functions.get_settlements()
+
+for setl in setl_list:
+    for limit_start in tqdm(['0', '10000', '20000', '30000', '40000', '50000', '60000', '70000', '80000', '90000', '100000']):
         limit_ = '10000'
-        url = f'https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds:geo%20%27%20@searchType:%7Bhouse%7D%20@searchTitle:{city}%27%20Limit%20{limit_start}%20{limit_}&pretty=1'
+        url = f'https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds:geo%20%27%20@searchType:%7Bhouse%7D%20@searchTitle:{setl}%27%20Limit%20{limit_start}%20{limit_}&pretty=1'
 
         response = requests.get(url)
 
@@ -41,60 +42,60 @@ for city in cities:
                             settlementId = value.get('settlementId')
                             location = value.get('location', [])
                             # Проверка, что это не поселок, так как на данный момент ищем только городские дома
-                            if settlementId == None:
-                                uuid = value.get('UUID')
-                                address_for_NominAPI = functions.clean_address(value.get('searchTitle'))
-                                address_for_Yandex = functions.modify_address_for_Yandex(value.get('searchTitle'))
-                                house_id = value.get('id')
-                                address_checked_in_past = functions.check_if_house_in_bad_bd(house_id=house_id)
-                                address_added_in_past = functions.check_if_address_in_bd(house_id=house_id)
-                                house_number = value.get('name')
-                                if house_number == '' or address_checked_in_past:
-                                    print('BadAddress')
-                                    continue
-                                if address_added_in_past:
-                                    print('AddedBefore')
-                                    continue
-                                print(f'{functions.clean_address(address_for_NominAPI)}')
+                            uuid = value.get('UUID')
+                            address_for_NominAPI = functions.clean_address(value.get('searchTitle'))
+                            address_for_Yandex = functions.modify_address_for_Yandex(value.get('searchTitle'))
+                            house_id = value.get('id')
+                            address_checked_in_past = functions.check_if_house_in_bad_bd(house_id=house_id)
+                            address_added_in_past = functions.check_if_address_in_bd(house_id=house_id)
+                            house_number = value.get('name')
+                            if house_number == '' or address_checked_in_past:
+                                print('BadAddress')
+                                continue
+                            if address_added_in_past:
+                                print('AddedBefore')
+                                continue
+                            print(f'{functions.clean_address(address_for_NominAPI)}')
 
-                                location_from_NominAPI = functions.get_location(address_for_NominAPI)
+                            location_from_NominAPI = functions.get_location(address_for_NominAPI)
 
 
-                                if not location_from_NominAPI:
-                                    if not YandexMap_broken:
+                            if not location_from_NominAPI:
+                                if not YandexMap_broken:
 
-                                        time.sleep(5)
-                                        location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
-                                        if location_from_Yandex is not None:
-                                            if location_from_Yandex['Input_not_found'] == True:
-                                                YandexMap_broken = True
+                                    time.sleep(5)
+                                    location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
+                                    if location_from_Yandex is not None:
+                                        if location_from_Yandex['Input_not_found'] == True:
+                                            YandexMap_broken = True
 
-                                        if not location_from_Yandex or not location_from_Yandex['latitude'] or not functions.check_address_correct(location_from_Yandex['Yandex_address'], house_number):
-                                            functions.add_address_without_location_in_DB(house_id=house_id, address=address_for_Yandex)
-                                        else:
-                                            try:
-                                                functions.post_address_in_bd(house_id, address_for_NominAPI, [location_from_Yandex['latitude'], location_from_Yandex['longitude']])
-                                                functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
-                                                yandex_counter += 1
-                                                logging.info(f"YANDEX {yandex_counter}")
-                                                logging.info(f"{location_from_Yandex} - LOCATION FROM YANDEX")
-                                            except Exception as e:
-                                                print(f'Faild to post coordinates: {e}')
-                                            print(f'{location_from_Yandex} - LOCATION FROM YANDEX')
+                                    if not location_from_Yandex or not location_from_Yandex['latitude'] or not functions.check_address_correct(location_from_Yandex['Yandex_address'], house_number):
+                                        functions.add_address_without_location_in_DB(house_id=house_id, address=address_for_Yandex)
                                     else:
-                                        continue
+                                        try:
+                                            functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
+                                            functions.post_address_in_bd(house_id, address_for_NominAPI,
+                                                                         [location_from_Yandex['latitude'],
+                                                                          location_from_Yandex['longitude']])
+                                            yandex_counter += 1
+                                            logging.info(f"YANDEX {yandex_counter}")
+                                            logging.info(f"{location_from_Yandex} - LOCATION FROM YANDEX")
+                                        except Exception as e:
+                                            print(f'Faild to post coordinates: {e}')
+                                        print(f'{location_from_Yandex} - LOCATION FROM YANDEX')
                                 else:
-                                    try:
-                                        functions.post_address_in_bd(house_id, address_for_NominAPI, location_from_NominAPI)
-                                        functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
-                                        nomin_counter += 1
-                                        logging.info(f"NOMI {nomin_counter}")
-                                        logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
-                                    except Exception as e:
-                                        print(f'Faild to post coordinates: {e}')
-                                    print(f'{location_from_NominAPI} - LOCATION FROM NOMI')
+                                    continue
                             else:
-                                print('it is a settlement')
+                                try:
+                                    functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
+                                    functions.post_address_in_bd(house_id, address_for_NominAPI,
+                                                                 location_from_NominAPI)
+                                    nomin_counter += 1
+                                    logging.info(f"NOMI {nomin_counter}")
+                                    logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
+                                except Exception as e:
+                                    print(f'Faild to post coordinates: {e}')
+                                print(f'{location_from_NominAPI} - LOCATION FROM NOMI')
 
                 else:
                     print("No <pre> tag found in the response content")
