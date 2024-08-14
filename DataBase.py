@@ -25,7 +25,7 @@ class AddedAddresses(Base):
     house_id: Mapped[int] = mapped_column(Integer, nullable=False)
     address: Mapped[str] = mapped_column(String(255), nullable=False)
     location: Mapped[list] = mapped_column(JSON, nullable=True)
-    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=datetime.utcnow)
+    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=datetime.now())
 
 class Address(Base):
     __tablename__ = 'badAddresses'
@@ -34,7 +34,7 @@ class Address(Base):
     house_id: Mapped[int] = mapped_column(Integer,  nullable=False)
     address: Mapped[str] = mapped_column(String(255), nullable=False)
     search_service: Mapped[list] = mapped_column(JSON, nullable=True)
-    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=datetime.utcnow)
+    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=datetime.now())
 
 try:
     Base.metadata.create_all(bind=engine)

@@ -182,8 +182,9 @@ def get_settlements():
                             settlement_name.append(value.get('addressShort').split()[0].lower())
         except Exception as e:
             print(e)
-        return settlement_name
+        return settlement_name[2:]
 
 
+print(get_settlements())
 
 

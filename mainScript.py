@@ -3,7 +3,6 @@ import json
 from bs4 import BeautifulSoup
 import functions
 import time
-import logging
 from Yandex_map_parser import YandexMapParser
 from tqdm import tqdm
 
@@ -20,11 +19,6 @@ for setl in setl_list:
 
         response = requests.get(url)
 
-        logging.basicConfig(filename='coordinates.log', level=logging.INFO, format='%(message)s')
-
-        yandex_counter = 0
-        nomin_counter = 0
-
         if response.status_code == 200:
             try:
                 soup = BeautifulSoup(response.text, 'html.parser')
@@ -40,20 +34,20 @@ for setl in setl_list:
                         for i, (key, value) in tqdm(enumerate(data.items(), start=1)):
 
                             settlementId = value.get('settlementId')
-                            location = value.get('location', [])
-                            # Проверка, что это не поселок, так как на данный момент ищем только городские дома
                             uuid = value.get('UUID')
-                            address_for_NominAPI = functions.clean_address(value.get('searchTitle'))
-                            address_for_Yandex = functions.modify_address_for_Yandex(value.get('searchTitle'))
+                            fiasId = value.get('fiasUUID')
+                            search_title = value.get('searchTitle')
+                            address_for_NominAPI = functions.clean_address(search_title)
+                            address_for_Yandex = functions.modify_address_for_Yandex(search_title)
                             house_id = value.get('id')
                             address_checked_in_past = functions.check_if_house_in_bad_bd(house_id=house_id)
                             address_added_in_past = functions.check_if_address_in_bd(house_id=house_id)
                             house_number = value.get('name')
                             if house_number == '' or address_checked_in_past:
-                                print('BadAddress')
+                                # print('BadAddress')
                                 continue
                             if address_added_in_past:
-                                print('AddedBefore')
+                                # print('AddedBefore')
                                 continue
                             print(f'{functions.clean_address(address_for_NominAPI)}')
 
@@ -62,8 +56,6 @@ for setl in setl_list:
 
                             if not location_from_NominAPI:
                                 if not YandexMap_broken:
-
-                                    time.sleep(5)
                                     location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
                                     if location_from_Yandex is not None:
                                         if location_from_Yandex['Input_not_found'] == True:
@@ -77,9 +69,6 @@ for setl in setl_list:
                                             functions.post_address_in_bd(house_id, address_for_NominAPI,
                                                                          [location_from_Yandex['latitude'],
                                                                           location_from_Yandex['longitude']])
-                                            yandex_counter += 1
-                                            logging.info(f"YANDEX {yandex_counter}")
-                                            logging.info(f"{location_from_Yandex} - LOCATION FROM YANDEX")
                                         except Exception as e:
                                             print(f'Faild to post coordinates: {e}')
                                         print(f'{location_from_Yandex} - LOCATION FROM YANDEX')
@@ -90,9 +79,6 @@ for setl in setl_list:
                                     functions.post_coordinates(uuid, location_from_NominAPI[0], location_from_NominAPI[1])
                                     functions.post_address_in_bd(house_id, address_for_NominAPI,
                                                                  location_from_NominAPI)
-                                    nomin_counter += 1
-                                    logging.info(f"NOMI {nomin_counter}")
-                                    logging.info(f"{location_from_NominAPI} - LOCATION FROM NOMI")
                                 except Exception as e:
                                     print(f'Faild to post coordinates: {e}')
                                 print(f'{location_from_NominAPI} - LOCATION FROM NOMI')
