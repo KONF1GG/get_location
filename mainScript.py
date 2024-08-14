@@ -35,7 +35,6 @@ for setl in setl_list:
 
                             settlementId = value.get('settlementId')
                             uuid = value.get('UUID')
-                            fiasId = value.get('fiasUUID')
                             search_title = value.get('searchTitle')
                             address_for_NominAPI = functions.clean_address(search_title)
                             address_for_Yandex = functions.modify_address_for_Yandex(search_title)
