@@ -86,7 +86,8 @@ def modify_address_for_Yandex(address):
     address = re.sub(r'(?<=\d) n | n(?=\d)', '-', address)
     address = re.sub(r'\d-(?=\d)', '', address)
     return address.strip()
-
+# краснодарский , краснодар , ленина , зеленая роща днт снт, березовая ул,  36
+print(modify_address_for_Yandex(clean_address('краснодарский край, краснодар г, ленина х, зеленая роща днт снт, березовая  ул, дом 36')))
 # Функция для запоминания адресов которые не смог найти парсер
 def add_address_without_location_in_DB(house_id, address):
     session = Session()
@@ -178,13 +179,35 @@ def get_settlements():
                     print("No data returned from the server (settle).")
                 else:
                     for (key, value) in data_settle.items():
-                        if value.get('addressShort').split()[0].lower() not in settlement_name:
-                            settlement_name.append(value.get('addressShort').split()[0].lower())
+                        shortName = value.get('searchTitle').split(', ')[-1]
+                        if shortName not in settlement_name:
+                            settlement_name.append(shortName)
         except Exception as e:
             print(e)
-        return settlement_name[2:]
 
+        return settlement_name
 
 print(get_settlements())
 
+def get_cities():
+    city_url = 'https://ws.freedom1.ru/redis/raw?query=FT.SEARCH%20idx:adds%20%27@searchType:{city}%27%20Limit%200%202000&pretty=1'
+    cities_name = []
+    response_city = requests.get(city_url)
+    if response_city.status_code == 200:
+        try:
+            soup_city = BeautifulSoup(response_city.text, 'html.parser')
+            pre_tag_city = soup_city.find('pre')
+            if pre_tag_city:
+                json_text_city = pre_tag_city.text
+                data_city = json.loads(json_text_city)
 
+                if not data_city:
+                    print("No data returned from the server (settle).")
+                else:
+                    for (key, value) in data_city.items():
+                        if value.get('addressShort').split()[0].lower() not in cities_name:
+                            cities_name.append(value.get('addressShort').split()[0].lower())
+        except Exception as e:
+            print(e)
+
+        return cities_name
