@@ -67,7 +67,7 @@ for setl in setl_list:
                                         functions.add_address_without_location_in_DB(house_id=house_id, address=address_for_Yandex)
                                     else:
                                         try:
-                                            functions.post_coordinates(uuid, location_from_Yandex['latitude'], location_from_Yandex['longitude'])
+                                            functions.post_coordinates(uuid, float(location_from_Yandex['latitude']), (location_from_Yandex['longitude']))
                                             functions.post_address_in_bd(house_id, address_for_NominAPI,
                                                                          [location_from_Yandex['latitude'],
                                                                           location_from_Yandex['longitude']])
