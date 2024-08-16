@@ -37,7 +37,7 @@ for setl in setl_list:
                             uuid = value.get('UUID')
                             search_title = value.get('searchTitle')
                             address_for_NominAPI = functions.clean_address(search_title)
-                            address_for_Yandex = functions.modify_address_for_Yandex(functions.modify_address_for_Yandex(search_title))
+                            address_for_Yandex = functions.modify_address_for_Yandex(search_title)
                             house_id = value.get('id')
                             address_checked_in_past = functions.check_if_house_in_bad_bd(house_id=house_id)
                             address_added_in_past = functions.check_if_address_in_bd(house_id=house_id)
