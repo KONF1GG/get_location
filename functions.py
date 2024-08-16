@@ -86,8 +86,7 @@ def modify_address_for_Yandex(address):
     address = re.sub(r'(?<=\d) n | n(?=\d)', '-', address)
     address = re.sub(r'\d-(?=\d)', '', address)
     return address.strip()
-# краснодарский , краснодар , ленина , зеленая роща днт снт, березовая ул,  36
-print(modify_address_for_Yandex(clean_address('краснодарский край, краснодар г, ленина х, зеленая роща днт снт, березовая  ул, дом 36')))
+
 # Функция для запоминания адресов которые не смог найти парсер
 def add_address_without_location_in_DB(house_id, address):
     session = Session()
@@ -179,9 +178,8 @@ def get_settlements():
                     print("No data returned from the server (settle).")
                 else:
                     for (key, value) in data_settle.items():
-                        shortName = value.get('searchTitle').split(', ')[-1]
-                        if shortName not in settlement_name:
-                            settlement_name.append(shortName)
+                        if value.get('addressShort').split()[0].lower() not in settlement_name:
+                            settlement_name.append(value.get('addressShort').split()[0].lower())
         except Exception as e:
             print(e)
 
