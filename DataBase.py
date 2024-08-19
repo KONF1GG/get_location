@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Integer, String, DateTime
+from sqlalchemy import create_engine, Integer, String, DateTime, func
 from sqlalchemy.orm import sessionmaker, DeclarativeBase, mapped_column, Mapped
 from data import MYSQL_USER, MYSQL_DB, MYSQL_HOST, MYSQL_PORT, MYSQL_PASSWORD
 from sqlalchemy.types import JSON
@@ -25,7 +25,7 @@ class AddedAddresses(Base):
     house_id: Mapped[int] = mapped_column(Integer, nullable=False)
     address: Mapped[str] = mapped_column(String(255), nullable=False)
     location: Mapped[list] = mapped_column(JSON, nullable=True)
-    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=datetime.now())
+    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, server_default=func.now())
 
 class Address(Base):
     __tablename__ = 'badAddresses'
@@ -34,7 +34,7 @@ class Address(Base):
     house_id: Mapped[int] = mapped_column(Integer,  nullable=False)
     address: Mapped[str] = mapped_column(String(255), nullable=False)
     search_service: Mapped[list] = mapped_column(JSON, nullable=True)
-    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, default=datetime.now())
+    created_at: Mapped[datetime] = mapped_column(DateTime, nullable=False, server_default=func.now())
 
 try:
     Base.metadata.create_all(bind=engine)

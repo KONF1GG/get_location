@@ -36,7 +36,6 @@ class YandexMapParser:
 
 
         try:
-            time.sleep(3)
             # Удаляем текст из поисковика (Нужно в случае если у нас не единичный запрос и нужно стереть предыдущий)
             search_input.send_keys(Keys.CONTROL + 'a')
             search_input.send_keys(Keys.BACKSPACE)

@@ -58,6 +58,7 @@ for setl in setl_list:
 
                             if not location_from_NominAPI:
                                 if not YandexMap_broken:
+                                    time.sleep(5)
                                     location_from_Yandex = parser.get_location_from_Yandex(address_for_Yandex)
                                     if location_from_Yandex is not None:
                                         if location_from_Yandex['Input_not_found'] == True:
